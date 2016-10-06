@@ -10,33 +10,6 @@ new_results=[]
 stoplist=[]
 dict = {}
 
-def bing_query_results(search_query):
-    search_query_enc = urllib.quote_plus("'{}'".format(search_query))
-    bingUrl = "https://api.datamarket.azure.com/Bing/Search/Web?Query=" + search_query_enc + "&$top=10&$format=json"
-
-    accountKey = "mbw46R+7k+Lf+GGFAE+yVER05KjxvEywUXPTLKTrlpg"
-    accountKeyEnc = base64.b64encode(accountKey + ':' + accountKey)
-    headers = {"Authorization" : "Basic " + accountKeyEnc}
-    req = urllib2.Request(bingUrl, headers = headers)
-    response = urllib2.urlopen(req,)
-    # content contains the xml/json response from Bing
-    json_resp = json.load(response)
-    return json_resp["d"]["results"]
-
-def mark_relevance(search_results):
-    relevant_results = []
-    count=0
-    for i in range(len(search_results)):
-        curr = search_results[i]
-        print ("URL:", curr["Url"])
-        print ("Title:", curr["Title"])
-        print ("Description:", curr["Description"])
-        user_resp = raw_input("Is this result relevant?[Y/N]")
-        if user_resp == 'Y' or user_resp == 'y':
-            count= count+1
-            new_results.append(curr["Title"] +curr["Description"])
-    return count #number of relevant results.
-
 #takes the file from the site and stores a list of stopwords. Added some more stop words.
 def create_stopwordlist():
     file1 = urllib2.urlopen("http://www.cs.columbia.edu/~gravano/cs6111/Proj1/stop.txt") #open('stop.txt','r')
@@ -86,26 +59,3 @@ def calculate_tfidf(relevance):
         #print(tf)
 
     #print(tfidf)
-
-def main():
-    # get input from command line
-    desired_prec = float(sys.argv[1])
-    input_query = " ".join(sys.argv[2:])
-    search_results = bing_query_results(input_query)
-    if len(search_results) < 10:
-        exit("< 10 search results")
-
-    relevance= mark_relevance(search_results)
-
-    search_prec = relevance/ 10.0
-    print("Precision achieved:", search_prec)
-    if search_prec >= desired_prec:
-        exit("Desired precedence reached, stopping search")
-    elif search_prec == 0.0:
-        exit("Zero precision in search results, quitting")
-
-    calculate_tfidf(relevance)
-    
-    # to tf-idf things to the relevant results, no need to use irrelevant docs
-if __name__ == "__main__":
-    main()
