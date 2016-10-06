@@ -40,9 +40,8 @@ def mark_relevance(search_results):
     return relevant_results
 
 # create a set of stop words from stop words list
-file1 = urllib2.urlopen("http://www.cs.columbia.edu/~gravano/cs6111/Proj1/stop.txt")
+file1 = open("stopwords.txt")
 stoplist = [ l.strip() for l in file1 ]
-stoplist.extend(["a","an","the","is","to", "of", "in", "into","will","has","be","shall","would","could","should","may","on","and","for","been","link", "links"])
 stop_set = set(stoplist)
 
 def remove_punctuation(word):
@@ -81,7 +80,7 @@ def compute_tfidf(titles, descs, word_dict, num_res):
 
     N = float(num_res)
     # compute idf from document frequencies
-    idfs = map(lambda freq: np.log(1 + N / freq), doc_freqs)
+    idfs = map(lambda freq: np.log(N / freq), doc_freqs)
     np_tfs = np.array(term_frequencies)
     return np_tfs * idfs
 
@@ -121,8 +120,8 @@ def main():
         titles = []
         descs = []
         for res in search_results:
-            title = remove_punctuation(res["Title"].lower()).split()
-            desc = remove_punctuation(res["Description"].lower()).split()
+            title = remove_punctuation(res["Title"].lower()).encode("ascii", "ignore").split()
+            desc = remove_punctuation(res["Description"].lower()).encode("ascii", "ignore").split()
             titles.append(title)
             descs.append(desc)
 
@@ -153,24 +152,17 @@ def main():
         relevant_sum = relevant_sum / num_relevant
         irrelevant_sum = irrelevant_sum / num_irrelevant
 
-        #for i in range(len(word_dict)):
-        #    print(word_dict[i], query_vec[i], relevant_sum[i], irrelevant_sum[i])
-
         alpha = 1 # weight of original query
         beta = 0.85 # weight of relevant results
-        gamma = 0.25 # weight of irrelevant results
+        gamma = 0.15 # weight of irrelevant results
         # since we want the query to remain at least the same in spirit,
         # we give it the heighest weighting
         query_vec_next = alpha * query_vec + beta * relevant_sum - gamma * irrelevant_sum
         # find top 2 words in the next vector that are not in the original words
         sorted_indices = np.argsort(query_vec_next)
-        # the words in the query will be the ones that have the highest weights
-        # to take words that aren't in the query, we start at the index before len(query)
-
-       # get the top words to add to the query, except those in the query already
+        # get the top words to add to the query, except those in the query already
         candidate_words = [word_dict[i] for i in reversed(sorted_indices) if word_dict[i] not in query]
-        for word in candidate_words[:10]:
-            print(word)
+        print(candidate_words[:10])
         query.extend(candidate_words[:2])
 
 if __name__ == "__main__":
