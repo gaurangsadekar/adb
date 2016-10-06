@@ -12,6 +12,7 @@ def bing_query_results(search_query):
     bingUrl = "https://api.datamarket.azure.com/Bing/Search/Web?Query=" + search_query_enc + "&$top=10&$format=json"
 
     accountKey = "mbw46R+7k+Lf+GGFAE+yVER05KjxvEywUXPTLKTrlpg"
+    #accountKey = "2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8"
     accountKeyEnc = base64.b64encode(accountKey + ':' + accountKey)
     headers = {"Authorization" : "Basic " + accountKeyEnc}
     req = urllib2.Request(bingUrl, headers = headers)
@@ -48,16 +49,12 @@ def remove_punctuation(word):
 # create a dictionary of all words except the stop words
 # this is given a cleaned list of search results
 # this dictionary is used globally
-word_set = set()
+word_dict = []
 def create_dictionary(word_lists):
     for words in word_lists:
         for word in words:
-            if word not in stop_set:
-                word_set.add(word)
-
-# has to be converted to list to maintain order of iteration for each result
-# set was useful for addition
-word_dict = []
+            if word not in stop_set and word not in word_dict:
+                word_dict.append(word)
 
 # computes the tf-idf from all the search results
 # using titles and descriptions
@@ -124,16 +121,15 @@ def main():
 
         create_dictionary(titles)
         create_dictionary(descs)
-        word_dict = list(word_set)
         # initialized vector for input query
         query_vec = [(1 if word in query else 0) for word in word_dict]
-        print(query_vec)
         # unnormalized tf-idf
         tfidf = compute_tfidf(titles, descs, num_res)
         # normalized tf-idf
-        normalized_tfidf = (tfidf.T / np.linalg.norm(tfidf, axis=1)).T
+        norms = np.linalg.norm(tfidf, axis=1)
+        print(norms)
+        normalized_tfidf = (tfidf.T / norms).T
         _, num_words = normalized_tfidf.shape
-        print("No. of words in dict:", num_words)
         # Rocchio's Algorithm
         # the algorithm uses the initial query, relevant documents and irrelevant docs
         # to augment the query in the next iteration
@@ -159,6 +155,7 @@ def main():
         # find top 2 words in the next vector that are not in the original words
         # see what words are given from the word list
         print(query_vec_next)
+        break
 
 if __name__ == "__main__":
     main()
