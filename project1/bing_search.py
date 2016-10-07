@@ -4,7 +4,6 @@ import json
 import sys
 import string
 import numpy as np
-import re
 
 exclude = set(string.punctuation)
 
@@ -13,8 +12,6 @@ def bing_query_results(accountKey, search_query):
     search_query_enc = urllib.quote_plus("'{}'".format(search_query))
     bingUrl = "https://api.datamarket.azure.com/Bing/Search/Web?Query=" + search_query_enc + "&$top=10&$format=json"
 
-    #accountKey = "mbw46R+7k+Lf+GGFAE+yVER05KjxvEywUXPTLKTrlpg"
-    #accountKey = "DMpf2+xEvT3PRNGLXrac7ias2sRYy7Cy7uxPlQzw74g="
     accountKeyEnc = base64.b64encode(accountKey + ':' + accountKey)
     headers = {"Authorization" : "Basic " + accountKeyEnc}
     req = urllib2.Request(bingUrl, headers = headers)
@@ -167,8 +164,8 @@ def main():
         irrelevant_sum = irrelevant_sum / num_irrelevant
 
         alpha = 1 # weight of original query
-        beta = 0.85 # weight of relevant results
-        gamma = 0.5 # weight of irrelevant results
+        beta = 0.75 # weight of relevant results
+        gamma = 0.25 # weight of irrelevant results
         # since we want the query to remain at least the same in spirit,
         # we give it the heighest weighting
         query_vec_next = alpha * query_vec + beta * relevant_sum - gamma * irrelevant_sum
@@ -176,8 +173,7 @@ def main():
         sorted_indices = np.argsort(query_vec_next)
         # get the top words to add to the query, except those in the query already
         candidate_words = [word_dict[i] for i in reversed(sorted_indices) if word_dict[i] not in query]
-        for word in candidate_words[:10]:
-            print(word)
+        # add the top 2 candidates to the query
         query.extend(candidate_words[:2])
 
 if __name__ == "__main__":
