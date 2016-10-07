@@ -4,6 +4,7 @@ import json
 import sys
 import string
 import numpy as np
+import re
 
 exclude = set(string.punctuation)
 
@@ -45,7 +46,8 @@ stoplist = [ l.strip() for l in file1 ]
 stop_set = set(stoplist)
 
 def remove_punctuation(word):
-    return "".join(ch for ch in word if ch not in exclude)
+    splitters = set(['.', '-', ':', ';', '/', '\\', '\''])
+    return "".join([(ch if ch not in splitters else ' ') for ch in word])
 
 # create a dictionary of all words except the stop words
 # this is given a cleaned list of search results
@@ -64,8 +66,18 @@ def compute_tfidf(titles, descs, word_dict, num_res):
     term_frequencies = []
     for i in range(num_res):
         doc_tf = []
+        tdd = []
         for word in word_dict:
-            count = titles[i].count(word) + descs[i].count(word)
+            title_count = titles[i].count(word)
+            desc_count = descs[i].count(word)
+
+            # to make sure that if words in a title and description are the same
+            # count them once. Otherwise the model is wrongly biased to links
+            # where the title and description are the same
+            multiplier = 1.0
+            if title_count ==  desc_count:
+                multiplier = 0.5
+            count = (title_count + desc_count) * multiplier
             doc_tf.append(count)
         term_frequencies.append(doc_tf)
 
@@ -81,7 +93,7 @@ def compute_tfidf(titles, descs, word_dict, num_res):
     N = float(num_res)
     # compute idf from document frequencies
     idfs = map(lambda freq: np.log(N / freq), doc_freqs)
-    np_tfs = np.array(term_frequencies)
+    np_tfs = np.array(term_frequencies, dtype=float)
     return np_tfs * idfs
 
 def main():
@@ -89,6 +101,8 @@ def main():
     account_key = sys.argv[1]
     desired_prec = float(sys.argv[2])
     query = sys.argv[3:]
+    query = [s.lower() for s in query]
+
     while (True):
         input_query = " ".join(query)
         search_results = bing_query_results(account_key, input_query)
@@ -154,7 +168,7 @@ def main():
 
         alpha = 1 # weight of original query
         beta = 0.85 # weight of relevant results
-        gamma = 0.15 # weight of irrelevant results
+        gamma = 0.5 # weight of irrelevant results
         # since we want the query to remain at least the same in spirit,
         # we give it the heighest weighting
         query_vec_next = alpha * query_vec + beta * relevant_sum - gamma * irrelevant_sum
@@ -162,7 +176,8 @@ def main():
         sorted_indices = np.argsort(query_vec_next)
         # get the top words to add to the query, except those in the query already
         candidate_words = [word_dict[i] for i in reversed(sorted_indices) if word_dict[i] not in query]
-        print(candidate_words[:10])
+        for word in candidate_words[:10]:
+            print(word)
         query.extend(candidate_words[:2])
 
 if __name__ == "__main__":
