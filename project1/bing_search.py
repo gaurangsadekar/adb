@@ -5,7 +5,8 @@ import sys
 import string
 import numpy as np
 
-exclude = set(string.punctuation)
+# generating the transcript file
+transcript = []
 
 # using implementation provided on course webpage
 def bing_query_results(accountKey, search_query):
@@ -26,19 +27,36 @@ def mark_relevance(search_results):
     # everything except Y or y is considered as n
     for i in range(len(search_results)):
         print("Result", i + 1, ":")
+        transcript.append("Result " + str(i + 1))
         curr = search_results[i]
-        print ("URL:", curr["Url"])
-        print ("Title:", curr["Title"])
-        print ("Description:", curr["Description"])
+        curr_url = "URL:" + curr["Url"]
+        curr_title = "Title:" + curr["Title"]
+        curr_desc = "Description:" + curr["Description"]
+        print (curr_url)
+        print (curr_title)
+        print(curr_desc)
         user_resp = raw_input("Is this result relevant?[Y/N]")
         rel = False
         if user_resp == 'Y' or user_resp == 'y':
             rel = True
         relevant_results.append(rel)
+
+        rel_str = "RELEVANT: "
+        if rel:
+            transcript.append(rel_str + "YES")
+        else:
+            transcript.append(rel_str + "NO")
+        transcript.append("[")
+        transcript.append("  " + curr_url)
+        transcript.append("  " + curr_title)
+        transcript.append("  " + curr_desc)
+        transcript.append("]")
+        transcript.append("\n")
+
     return relevant_results
 
 # create a set of stop words from stop words list
-file1 = open("stopwords.txt")
+file1 = open("stopwords.txt", "r")
 stoplist = [ l.strip() for l in file1 ]
 stop_set = set(stoplist)
 
@@ -100,10 +118,17 @@ def main():
     query = sys.argv[3:]
     query = [s.lower() for s in query]
 
+    transcript_name = " ".join(query)
+    round_num = 0
     while (True):
         input_query = " ".join(query)
         search_results = bing_query_results(account_key, input_query)
+        round_num += 1
+        transcript.append("=====================================")
+        transcript.append("ROUND " + str(round_num))
         print("Query:", input_query)
+        transcript.append("QUERY " + input_query)
+        transcript.append("\n")
         print("Desired Precision:", desired_prec)
         print("Bing Search Results:")
         print("====================")
@@ -119,6 +144,7 @@ def main():
         print("FEEDBACK SUMMARY")
         print("================")
         print("Precision achieved:", search_prec)
+        transcript.append("PRECISION " + str(search_prec))
         if search_prec == 0.0:
             print("Zero precision in search results, quitting")
             break
@@ -175,6 +201,13 @@ def main():
         candidate_words = [word_dict[i] for i in reversed(sorted_indices) if word_dict[i] not in query]
         # add the top 2 candidates to the query
         query.extend(candidate_words[:2])
+
+    # write transcript to file
+    filename = "transcript_" + transcript_name + ".txt"
+    transcript_str = "\n".join(transcript)
+    f = open(filename, "w")
+    f.write(transcript_str.encode("utf-8"))
+    f.close()
 
 if __name__ == "__main__":
     main()

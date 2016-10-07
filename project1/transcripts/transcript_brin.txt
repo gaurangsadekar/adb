@@ -1,0 +1,192 @@
+=====================================
+ROUND 1
+QUERY brin
+
+
+Result 1
+RELEVANT: YES
+[
+  URL:https://en.wikipedia.org/wiki/Sergey_Brin
+  Title:Sergey Brin - Wikipedia, the free encyclopedia
+  Description:Early life and education. Brin was born in Moscow in the Soviet Union, to Russian Jewish parents, Yevgenia and Mikhail Brin, both graduates of Moscow State ...
+]
+
+
+Result 2
+RELEVANT: NO
+[
+  URL:http://www.thefreedictionary.com/Brin
+  Title:Brin - definition of brin by The Free Dictionary
+  Description:brin (brɪn) n. 1. (Animals) one of two filaments of silk combined by the silkworm to form a strand of silk. 2. one of the ribs of a fan
+]
+
+
+Result 3
+RELEVANT: NO
+[
+  URL:http://brin.ai/
+  Title:BRiN - Your Personal Business Advisor
+  Description:Download BRiN today & get instant access to real-time support and hundreds of business education videos. Introducing BRiN - Your Personal Business Advisor.
+]
+
+
+Result 4
+RELEVANT: NO
+[
+  URL:http://www.davidbrin.com/
+  Title:worlds of DAVID BRIN
+  Description:official website of best-selling science fiction writer and futurist DAVID BRIN
+]
+
+
+Result 5
+RELEVANT: NO
+[
+  URL:http://science.howstuffworks.com/life/inside-the-mind/human-brain/brain.htm
+  Title:How Your Brain Works | HowStuffWorks
+  Description:How Your Brain Works. by Craig Freudenrich, Ph.D. & Robynne Boyd Science | The Human Brain. NEXT PAGE NEXT . The human nervous system ...
+]
+
+
+Result 6
+RELEVANT: NO
+[
+  URL:http://bringlass.com/
+  Title:Minnesota Glass, Minneapolis Glass - Brin Northwestern ...
+  Description:Founded in 1912, Brin Northwestern Glass has nearly a century of experience in residential and commercial glass and glazing in MN and WI.
+]
+
+
+Result 7
+RELEVANT: NO
+[
+  URL:http://www.mylifetime.com/shows/bring-it
+  Title:Bring It! Full Episodes, Video & More | Lifetime
+  Description:Bring It! Email Updates. Get updates on new episodes, sneak peeks, and more! Please enter a valid email address. By submitting your information, you agree to receive ...
+]
+
+
+Result 8
+RELEVANT: NO
+[
+  URL:http://www.youtube.com/user/ImmJustBrian
+  Title:BriN - YouTube
+  Description:BriN Videos; Playlists; Channels; Discussion; About; Home Trending History Best of YouTube Music Sports Gaming Movies ...
+]
+
+
+Result 9
+RELEVANT: NO
+[
+  URL:https://www.brainpop.com/
+  Title:BrainPOP
+  Description:BrainPOP - Animated Educational Site for Kids - Science, Social Studies, English, Math, Arts & Music, Health, and Technology
+]
+
+
+Result 10
+RELEVANT: NO
+[
+  URL:http://www.webmd.com/brain/picture-of-the-brain
+  Title:Brain (Human Anatomy): Picture, Function, Parts ...
+  Description:WebMD's Brain Anatomy Page provides a detailed diagram and definition of the brain including its function, parts, and conditions that affect it.
+]
+
+
+PRECISION 0.1
+=====================================
+ROUND 2
+QUERY brin moscow sergey
+
+
+Result 1
+RELEVANT: YES
+[
+  URL:https://en.wikipedia.org/wiki/Sergey_Brin
+  Title:Sergey Brin - Wikipedia, the free encyclopedia
+  Description:Brin was born in Moscow in the Soviet Union, ... Sergey Brin has also been very involved and deserves many thanks. - Larry Page page cs.stanford.edu
+]
+
+
+Result 2
+RELEVANT: YES
+[
+  URL:https://plus.google.com/+SergeyBrin/about
+  Title:Sergey Brin - About - Google+
+  Description:Sergey Brin - Google - Mountain View, CA - palo alto, ca - college park, md - moscow, ussr - Stanford University
+]
+
+
+Result 3
+RELEVANT: YES
+[
+  URL:http://www.forbes.com/profile/sergey-brin/
+  Title:Sergey Brin - Forbes
+  Description:Sergey Brin runs Alphabet's secretive X division, a key player in the race towards autonomous vehicles and the builder of self-driving cars. X (formerly called ...
+]
+
+
+Result 4
+RELEVANT: YES
+[
+  URL:http://google.wikia.com/wiki/Sergey_Brin
+  Title:Sergey Brin | Google Wiki | Fandom powered by Wikia
+  Description:Sergey Mikhaylovich Brin is a Russian-American computer scientist and Internet entrepreneur who, with Larry Page, co-founded Google. Together, Brin and Page own about ...
+]
+
+
+Result 5
+RELEVANT: YES
+[
+  URL:http://www.momentmag.com/the-story-of-sergey-brin/
+  Title:The Story of Sergey Brin - Moment Magazine
+  Description:The Story of Sergey Brin - It takes a bit of searching to find Sergey Brin’s office at the Googleplex. Tucked away in a corner of Building #43 on this sprawling ...
+]
+
+
+Result 6
+RELEVANT: YES
+[
+  URL:http://research.google.com/pubs/SergeyBrin.html
+  Title:Sergey Brin - Research at Google
+  Description:Sergey Brin, a native of Moscow, received a bachelor of science degree with honors in mathematics and computer science from the University of Maryland at ...
+]
+
+
+Result 7
+RELEVANT: YES
+[
+  URL:http://russiapedia.rt.com/prominent-russians/business/sergey-brin/
+  Title:Sergey Brin – Russiapedia Business Prominent Russians
+  Description:Out of the USSR. Brin was born in Moscow on August 23, 1973 to a Jewish family. Both his parents, Mikhail and Evgenia Brin, are mathematicians who graduated from ...
+]
+
+
+Result 8
+RELEVANT: YES
+[
+  URL:http://www.biography.com/people/sergey-brin-12103333
+  Title:Sergey Brin - Engineer, Inventor, Computer Programmer ...
+  Description:Sergey Brin created Google with Larry Page, the two becoming billionaires as Google developed into the world's most popular search engine and a media giant.
+]
+
+
+Result 9
+RELEVANT: YES
+[
+  URL:https://www.britannica.com/biography/Sergey-Brin
+  Title:Sergey Brin | American entrepreneur | Britannica.com
+  Description:American computer scientist and entrepreneur, who, with Sergey Brin, created the online search engine Google, one of the most successful sites on the Internet.
+]
+
+
+Result 10
+RELEVANT: YES
+[
+  URL:http://www.imdb.com/name/nm1962236/
+  Title:Sergey Brin - IMDb
+  Description:Sergey Brin, Self: Google and the World Brain. Sergey Brin was born on August 21, 1973 in Moscow, RSFSR, USSR as Sergey Mikhaylovich Brin.
+]
+
+
+PRECISION 1.0
