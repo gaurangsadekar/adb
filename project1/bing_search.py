@@ -205,7 +205,7 @@ def main():
     # write transcript to file
     filename = "transcript_" + transcript_name + ".txt"
     transcript_str = "\n".join(transcript)
-    f = open(filename, "w")
+    f = open("transcripts/" + filename, "w")
     f.write(transcript_str.encode("utf-8"))
     f.close()
 
