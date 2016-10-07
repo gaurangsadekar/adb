@@ -1,0 +1,192 @@
+=====================================
+ROUND 1
+QUERY taj mahal
+
+
+Result 1
+RELEVANT: NO
+[
+  URL:https://en.wikipedia.org/wiki/Taj_Mahal
+  Title:Taj Mahal - Wikipedia, the free encyclopedia
+  Description:The Taj Mahal (/ ˌ t ɑː dʒ m ə ˈ h ɑː l /, more often / ˈ t ɑː ʒ /; Persian for Crown of Palaces) is an ivory-white marble mausoleum on the ...
+]
+
+
+Result 2
+RELEVANT: NO
+[
+  URL:http://tajmahal.gov.in/
+  Title:Welcome To Official WebSite of Taj Mahal-U.P.Tourism
+  Description:Official website by Department of Tourism, Government of Uttar Pradesh. Details about Taj Mahal, ticketing, tours, and tourist information.
+]
+
+
+Result 3
+RELEVANT: NO
+[
+  URL:http://www.trumptaj.com/
+  Title:Atlantic City New Jersey Casino Hotels | Trump Taj Mahal ...
+  Description:Trump Taj Mahal will close and cease casino and hotel operations on Monday, October 10, 2016 at 5:59am. Please see below regarding your Trump One® account and the ...
+]
+
+
+Result 4
+RELEVANT: NO
+[
+  URL:http://www.tajmahal.gov.in/picture_gallery.html
+  Title:Welcome To Official WebSite of Taj Mahal-U.P.Tourism
+  Description:Taj Mahal at Agra, India is one of the wonders of the world. Find information related to Taj Mahal travel and tourism in this article.
+]
+
+
+Result 5
+RELEVANT: NO
+[
+  URL:https://en.wikipedia.org/wiki/Trump_Taj_Mahal
+  Title:Trump Taj Mahal - Wikipedia, the free encyclopedia
+  Description:The Trump Taj Mahal is a casino and hotel on the Boardwalk in Atlantic City, New Jersey, United States. The casino is owned by Trump Entertainment Resorts ...
+]
+
+
+Result 6
+RELEVANT: NO
+[
+  URL:http://www.history.com/topics/taj-mahal
+  Title:The Taj Mahal - Facts & Summary - HISTORY.com
+  Description:Find out more about the history of The Taj Mahal, including videos, interesting articles, pictures, historical features and more. Get all the facts on HISTORY.com
+]
+
+
+Result 7
+RELEVANT: NO
+[
+  URL:http://www.tajmahal.com/
+  Title:Taj Mahal India
+  Description:Taj Mahal, Taj Mahal history, taj mahal location, pictures, information, taj mahal tours, tickets and packages. Taj Mahal India
+]
+
+
+Result 8
+RELEVANT: YES
+[
+  URL:http://www.last.fm/music/Taj+Mahal
+  Title:Taj Mahal — Free listening, videos, concerts, stats and ...
+  Description:Taj Mahal (born Henry Saint Clair Fredericks in New York City on May 17, 1942) is an American Grammy Award-winning blues musician who incorporates elements of world ...
+]
+
+
+Result 9
+RELEVANT: NO
+[
+  URL:http://www.tajlancaster.com/
+  Title:Taj Mahal - Best Restaurant & Dining | Lancaster PA | Taj ...
+  Description:Enjoy Indian cuisine in all its variety. Taj Mahal is consistently voted one of the best restaurants in Lancaster PA. Call 717-295-1434 for dining reservations!
+]
+
+
+Result 10
+RELEVANT: YES
+[
+  URL:http://www.allmusic.com/artist/taj-mahal-mn0000790604
+  Title:Taj Mahal | Biography, Albums, Streaming Links | AllMusic
+  Description:Find Taj Mahal bio, music, credits, awards, & streaming links on AllMusic - A guitarist and singer/songwriter who took an…
+]
+
+
+PRECISION 0.2
+=====================================
+ROUND 2
+QUERY taj mahal songwriter biography,
+
+
+Result 1
+RELEVANT: YES
+[
+  URL:http://www.biography.com/people/taj-mahal-40448
+  Title:Taj Mahal - Guitarist, Songwriter, Singer - Biography.com
+  Description:Find out more about acclaimed, Grammy Award-winning blues/world music artist Taj Mahal at Biography.com.
+]
+
+
+Result 2
+RELEVANT: YES
+[
+  URL:http://www.tajblues.com/biography/
+  Title:Biography - Taj Mahal
+  Description:4148 Biography - Taj Mahal singular page page-id-4148 page-template page ... songwriter, film composer ... He capped the year with “An Evening with Taj Mahal” at ...
+]
+
+
+Result 3
+RELEVANT: YES
+[
+  URL:http://www.last.fm/music/Taj+Mahal
+  Title:Taj Mahal — Free listening, videos, concerts, stats and ...
+  Description:Taj Mahal (born Henry Saint Clair Fredericks in New York City on May 17, 1942) is an American Grammy Award-winning blues musician who incorporates elements of world ...
+]
+
+
+Result 4
+RELEVANT: YES
+[
+  URL:http://www.allmusic.com/artist/taj-mahal-mn0000790604
+  Title:Taj Mahal | Biography, Albums, Streaming Links | AllMusic
+  Description:Find Taj Mahal bio, music, credits, awards, & streaming links on AllMusic - A guitarist and singer/songwriter who took an…
+]
+
+
+Result 5
+RELEVANT: YES
+[
+  URL:https://www.britannica.com/biography/Taj-Mahal-American-musician
+  Title:Taj Mahal | American musician | Britannica.com
+  Description:Taj Mahal, original name Henry Saint Clair Fredericks (born May 17, 1942, New York, N.Y., U.S.) American singer, guitarist, songwriter, and one of the pioneers of ...
+]
+
+
+Result 6
+RELEVANT: YES
+[
+  URL:https://en.wikipedia.org/wiki/Taj_Mahal_(musician)
+  Title:Taj Mahal (musician) - Wikipedia, the free encyclopedia
+  Description:Taj Mahal: Born May 17, 1942 (age 74) Harlem, New ... Musician singer-songwriter: Instruments: Guitar Banjo Harmonica Piano Ukulele: Years active: 1964–present: Labels:
+]
+
+
+Result 7
+RELEVANT: YES
+[
+  URL:https://www.discogs.com/artist/15158-Taj-Mahal
+  Title:Taj Mahal Discography at Discogs
+  Description:Complete your Taj Mahal record collection. Discover Taj Mahal's full discography. Shop new and used Vinyl and CDs.
+]
+
+
+Result 8
+RELEVANT: YES
+[
+  URL:http://www.browsebiography.com/bio-taj_mahal.html
+  Title:Taj Mahal biography, birth date, birth place and pictures
+  Description:Taj Mahal is credited as Singer-songwriter, Blues musician, Grammy Award winner. Henry Saint Clair Fredericks, who uses the stage name Taj Mahal, is an American ...
+]
+
+
+Result 9
+RELEVANT: YES
+[
+  URL:http://www.allmusic.com/artist/taj-mahal-mn0000790604/biography
+  Title:Taj Mahal | Biography & History | AllMusic
+  Description:Find Taj Mahal biography and history on AllMusic - One of the most prominent figures in late 20th…
+]
+
+
+Result 10
+RELEVANT: YES
+[
+  URL:http://www.biography.com/people/groups/famous-named-mahal#!
+  Title:Famous People Named Mahal - Mahal - Biography.com
+  Description:Famous People Named Mahal. People In This Group. Biography Taj Mahal Guitarist, Songwriter, Singer ... Taj Mahal Guitarist, Songwriter, Singer ...
+]
+
+
+PRECISION 1.0

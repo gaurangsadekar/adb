@@ -1,0 +1,192 @@
+=====================================
+ROUND 1
+QUERY musk
+
+
+Result 1
+RELEVANT: NO
+[
+  URL:https://en.wikipedia.org/wiki/Musk
+  Title:Musk - Wikipedia, the free encyclopedia
+  Description:Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
+]
+
+
+Result 2
+RELEVANT: YES
+[
+  URL:http://www.cnbc.com/elon-musk/
+  Title:Elon Musk - CNBC
+  Description:Elon Musk, Tesla ... Wednesday, 28 Sep 2016 | 7:46 AM ET. It's a time where people are recognizing the value of science in our lives, says astrophysicist Neil ...
+]
+
+
+Result 3
+RELEVANT: YES
+[
+  URL:http://www.foxnews.com/science/2016/09/28/elon-musk-unveils-ambitious-mars-colonization-plan.html
+  Title:Elon Musk unveils ambitious Mars colonization plan | Fox News
+  Description:On Tuesday, SpaceX CEO Elon Musk unveiled plans for a spacecraft and rocket project that intends to put intelligent life on Mars: human life. In a speech ...
+]
+
+
+Result 4
+RELEVANT: YES
+[
+  URL:http://money.cnn.com/2016/09/30/technology/tesla-elon-musk-discount/index.html
+  Title:Elon Musk to Tesla employees: NEVER discount a car
+  Description:Telsa CEO Elon Musk chided his salespeople for offering discounts to customers, violating the company's strict 'no negotiation, no discount' policy.
+]
+
+
+Result 5
+RELEVANT: NO
+[
+  URL:http://www.dictionary.com/browse/musk
+  Title:Musk | Define Musk at Dictionary.com
+  Description:Musk definition, a substance secreted in a glandular sac under the skin of the abdomen of the male musk deer, having a strong odor, and used in perfumery. See more.
+]
+
+
+Result 6
+RELEVANT: NO
+[
+  URL:http://www.merriam-webster.com/dictionary/musk
+  Title:Musk | Definition of Musk by Merriam-Webster
+  Description::a strong-smelling material that is used in perfumes and is obtained from a gland of an Asian deer (musk deer) or is prepared artificially
+]
+
+
+Result 7
+RELEVANT: NO
+[
+  URL:http://www.thefreedictionary.com/musk
+  Title:Musk - definition of musk by The Free Dictionary
+  Description:musk (mŭsk) n. 1. a. A greasy secretion with a powerful odor, produced in a glandular sac in the abdomen of a male musk deer and used in traditional medicines and ...
+]
+
+
+Result 8
+RELEVANT: YES
+[
+  URL:http://www.nytimes.com/2016/09/28/science/elon-musk-spacex-mars-exploration.html
+  Title:Elon Musk’s Plan: Get Humans to Mars, and Beyond
+  Description:SpaceX, Elon Musk’s rocket company, released a video simulation of a journey to Mars. His plan is for spacecraft that would take 100 passengers to the ...
+]
+
+
+Result 9
+RELEVANT: YES
+[
+  URL:http://www.forbes.com/profile/elon-musk/
+  Title:Elon Musk - Forbes
+  Description:Elon Musk Will Reach Mars Before Tesla Cracks China, Unless Beijing Changes The Rules Earlier this week, Elon Musk presented his master plan for colonizing Mars, a ...
+]
+
+
+Result 10
+RELEVANT: YES
+[
+  URL:https://en.wikipedia.org/wiki/Elon_Musk
+  Title:Elon Musk - Wikipedia, the free encyclopedia
+  Description:Elon Reeve Musk (/ ˈ iː l ɒ n ˈ m ʌ s k /; born June 28, 1971) is a South African-born Canadian-American business magnate, investor, engineer and inventor.
+]
+
+
+PRECISION 0.6
+=====================================
+ROUND 2
+QUERY musk born elon
+
+
+Result 1
+RELEVANT: YES
+[
+  URL:https://en.wikipedia.org/wiki/Elon_Musk
+  Title:Elon Musk - Wikipedia, the free encyclopedia
+  Description:Born: Elon Reeve Musk June 28, 1971 (age 45) Pretoria, Transvaal, South Africa: Residence: Bel Air, Los Angeles, California, United States: Nationality
+]
+
+
+Result 2
+RELEVANT: YES
+[
+  URL:https://www.britannica.com/biography/Elon-Musk
+  Title:Elon Musk | American entrepreneur | Britannica.com
+  Description:Elon Musk, (born June 28, 1971, Pretoria, South Africa) South African-born American entrepreneur who cofounded the electronic-payment firm PayPal and the maker of ...
+]
+
+
+Result 3
+RELEVANT: YES
+[
+  URL:http://www.biography.com/people/elon-musk-20837159
+  Title:Elon Musk - Engineer, Inventor, Explorer - Biography.com
+  Description:Elon Musk started co-founded PayPal and Tesla Motors, and created the space corporation SpaceX, which is credited for sending the first commercial space flight to the ...
+]
+
+
+Result 4
+RELEVANT: YES
+[
+  URL:http://www.imdb.com/name/nm1907769/
+  Title:Elon Musk - IMDb
+  Description:Elon Musk was born on June 28, 1971 in Pretoria, South Africa as Elon Reeve Musk. He is a producer and actor, known for Machete Kills (2013), Revenge of the Electric ...
+]
+
+
+Result 5
+RELEVANT: YES
+[
+  URL:http://www.spokeo.com/Elon+Musk+1
+  Title:Elon Musk - Pics, Videos, Dating, & News - Spokeo
+  Description:Elon Musk (45 years old) is a famous person. Find out his latest pics, videos, news, family, dating history, and more on Spokeo
+]
+
+
+Result 6
+RELEVANT: YES
+[
+  URL:http://www.nytimes.com/2016/05/01/fashion/elon-musk-mother-maye-musk-model-met-gala.html
+  Title:At 68, Maye Musk, the Mother of Elon, Is Reclaiming the ...
+  Description:Maye Musk will be attending her first Met Gala on Monday with her son Elon. Here, she tries on her outfit. Credit Jennifer S. Altman for The New York Times
+]
+
+
+Result 7
+RELEVANT: YES
+[
+  URL:http://inventors.about.com/od/mstartinventions/p/Elon-Musk.htm
+  Title:Elon Musk - Tesla Motors & SpaceX Founder
+  Description:Elon Musk Is Best Known for: Elon Musk is best known for being the co-founder of PayPal, a money-transfer service for Web consumers, for founding Space ...
+]
+
+
+Result 8
+RELEVANT: YES
+[
+  URL:https://simple.wikipedia.org/wiki/Elon_Musk
+  Title:Elon Musk - Simple English Wikipedia, the free encyclopedia
+  Description:Elon R. Musk (born June 28, 1971) is a business owner, investor and inventor. He was born in South Africa, moved to Canada, then became an American.
+]
+
+
+Result 9
+RELEVANT: YES
+[
+  URL:http://www.youtube.com/watch?v=IgKWPdJWuBQ
+  Title:The mind behind Tesla, SpaceX, SolarCity ... | Elon Musk ...
+  Description:Entrepreneur Elon Musk is a man with many plans. The founder of PayPal, Tesla Motors and SpaceX sits down with TED curator Chris Anderson to share details ...
+]
+
+
+Result 10
+RELEVANT: YES
+[
+  URL:http://www.forbes.com/profile/elon-musk/
+  Title:Elon Musk - Forbes
+  Description:Elon Musk Will Reach Mars Before Tesla Cracks China, Unless Beijing Changes The Rules Earlier this week, Elon Musk presented his master plan for colonizing Mars, a ...
+]
+
+
+PRECISION 1.0

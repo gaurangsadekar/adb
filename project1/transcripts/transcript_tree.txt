@@ -1,0 +1,192 @@
+=====================================
+ROUND 1
+QUERY tree
+
+
+Result 1
+RELEVANT: NO
+[
+  URL:https://en.wikipedia.org/wiki/Tree
+  Title:Tree - Wikipedia, the free encyclopedia
+  Description:In botany, a tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves in most species. In some usages, the definition of a tree may ...
+]
+
+
+Result 2
+RELEVANT: NO
+[
+  URL:http://www.dictionary.com/browse/tree
+  Title:Tree | Define Tree at Dictionary.com
+  Description:Tree definition, a plant having a permanently woody main stem or trunk, ordinarily growing to a considerable height, and usually developing branches at some distance ...
+]
+
+
+Result 3
+RELEVANT: NO
+[
+  URL:http://www.arborday.org/
+  Title:Buy Trees and Learn About Trees - Visit our Online Nursery
+  Description:This official site of the Arbor Day Foundation provides information about planting and caring for trees, our Rain Forest Rescue and Tree City USA programs, and much more.
+]
+
+
+Result 4
+RELEVANT: NO
+[
+  URL:https://www.britannica.com/plant/tree
+  Title:tree | plant | Britannica.com
+  Description:Tree, woody plant that regularly renews its growth (perennial). Most plants classified as trees have a single self-supporting trunk containing woody tissues, and in ...
+]
+
+
+Result 5
+RELEVANT: NO
+[
+  URL:http://finance.yahoo.com/q?s=tree
+  Title:TREE : Summary for LendingTree, Inc. - Yahoo Finance
+  Description:View the basic TREE stock chart on Yahoo Finance. Change the date range, chart type and compare LendingTree, Inc. against other companies.
+]
+
+
+Result 6
+RELEVANT: YES
+[
+  URL:https://en.wikipedia.org/wiki/Tree_%28data_structure%29
+  Title:Tree (data structure) - Wikipedia, the free encyclopedia
+  Description:A tree is a (possibly non-linear) data structure made up of nodes or vertices and edges without having any cycle. The tree with no nodes is called the null or empty tree.
+]
+
+
+Result 7
+RELEVANT: NO
+[
+  URL:http://www.merriam-webster.com/dictionary/tree
+  Title:Tree | Definition of Tree by Merriam-Webster
+  Description:Middle English, from Old English trēow; akin to Old Norse trē tree, Greek drys, Sanskrit dāru wood. First Known Use: before 12th century
+]
+
+
+Result 8
+RELEVANT: NO
+[
+  URL:http://www.thefreedictionary.com/tree
+  Title:Tree - definition of tree by The Free Dictionary
+  Description:tree (trē) n. 1. a. A perennial woody plant having a main trunk and usually a distinct crown. b. A plant or shrub resembling a tree in form or size. 2. a. Something ...
+]
+
+
+Result 9
+RELEVANT: NO
+[
+  URL:http://www.fast-growing-trees.com/
+  Title:Fast Growing Trees - Buy Trees Online - 1-888-504-2001
+  Description:Trees perfect for your area. Click or dial 1-888-504-2001 for fast growing evergreen trees, shade trees, flowering trees and fruit trees
+]
+
+
+Result 10
+RELEVANT: NO
+[
+  URL:https://simple.wikipedia.org/wiki/Tree
+  Title:Tree - Simple English Wikipedia, the free encyclopedia
+  Description:A tree is a tall plant with a trunk and branches made of wood. Trees can live for many years. The oldest tree ever discovered is approximately 5,000 years old.
+]
+
+
+PRECISION 0.1
+=====================================
+ROUND 2
+QUERY tree nodes (data
+
+
+Result 1
+RELEVANT: YES
+[
+  URL:https://en.wikipedia.org/wiki/Tree_%28data_structure%29
+  Title:Tree (data structure) - Wikipedia, the free encyclopedia
+  Description:A tree is a (possibly non-linear) data structure made up of nodes or vertices and edges without having any cycle. The tree with no nodes is called the null or empty tree.
+]
+
+
+Result 2
+RELEVANT: YES
+[
+  URL:https://en.wikipedia.org/wiki/Node_(computer_science)
+  Title:Node (computer science) - Wikipedia, the free encyclopedia
+  Description:A node is a basic unit used in computer science. Nodes are devices or data points on a larger network. Devices such as a personal computer, cell phone, or printer are ...
+]
+
+
+Result 3
+RELEVANT: YES
+[
+  URL:http://docs.oracle.com/javase/tutorial/uiswing/components/tree.html
+  Title:How to use Tree - the Java Tutorials - Oracle
+  Description:The argument to the DefaultMutableTreeNode constructor is the user object which is an object that contains or points to the data associated with the tree node.
+]
+
+
+Result 4
+RELEVANT: YES
+[
+  URL:http://docs.oracle.com/cd/E41633_01/pt853pbh1/eng/pt/ttrm/task_WorkingwithTreeNodes-0712f8.html
+  Title:Working with Tree Nodes - Oracle
+  Description:Working with Tree Nodes. This section discusses how to: Describe tree nodes. ... The table that stores the data is defined on the Tree Structure Maintenance page.
+]
+
+
+Result 5
+RELEVANT: YES
+[
+  URL:http://infolab.stanford.edu/~ullman/focs/ch05.pdf
+  Title:5 The Tree Data Model - Stanford InfoLab
+  Description:CHAPTER 5 The Tree Data Model There are many situations in which information has a hierarchical or nested struc-ture like that found in family trees or ...
+]
+
+
+Result 6
+RELEVANT: YES
+[
+  URL:http://www.jstree.com/docs/html/
+  Title:HTML Data - jsTree
+  Description:You can also set the state on a node using a data-jstree attribute. You can use any combination of the following: opened, selected, disabled, icon.
+]
+
+
+Result 7
+RELEVANT: YES
+[
+  URL:https://en.wikibooks.org/wiki/Data_Structures/Trees
+  Title:Data Structures/ Trees - Wikibooks, open books for an open ...
+  Description:Data Structures/Trees. ... Tree nodes have many useful ... All leaves within the tree are black (leaves do not contain data and can be modelled as null or nil ...
+]
+
+
+Result 8
+RELEVANT: YES
+[
+  URL:https://msdn.microsoft.com/en-us/library/ms379572(v=vs.80).aspx
+  Title:Part 3: Binary Trees and BSTs - msdn.microsoft.com
+  Description:Part 3: Binary Trees and BSTs. ... Arranging Data in a Tree. ... a binary tree's nodes have at most two children, ...
+]
+
+
+Result 9
+RELEVANT: YES
+[
+  URL:http://courses.cs.vt.edu/~cs3114/Fall09/wmcquain/Notes/T03a.BinaryTreeTheorems.pdf
+  Title:Full and Complete Binary Trees Binary Tree Theorems 1
+  Description:Binary Tree Theorems 1 CS@VT Data Structures & Algorithms ©2000-2009 McQuain Full and Complete Binary Trees Here are two important types of binary trees.
+]
+
+
+Result 10
+RELEVANT: YES
+[
+  URL:https://datamining.bus.utk.edu/Documents/Tree-Structured-Data-Analysis-(SPSS).pdf
+  Title:Tree Structured Data Analysis - Data Mining
+  Description:Tree Structured Data Analysis: AID, CHAID and CART Leland Wilkinson ... By not allowing any other splits on shape, the tree requires five terminal nodes to
+]
+
+
+PRECISION 1.0
