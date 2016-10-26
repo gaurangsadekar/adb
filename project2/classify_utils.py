@@ -3,7 +3,7 @@ import urllib, urllib2, base64
 import json
 import sys
 import string
-import os
+
 # takes account key, host_url and search query
 # returns number of matches for query and the 10 web search results returned
 def bing_web_search(account_key, host_url, search_query):
@@ -16,28 +16,26 @@ def bing_web_search(account_key, host_url, search_query):
     response = urllib2.urlopen(req)
     json_resp = json.load(response)
     results = json_resp["d"]["results"][0]
-    num_matches = results["WebTotal"]
-    search_res = results["Web"]
+    num_matches = int(results["WebTotal"])
+    search_res = map(lambda r: r["Url"], results["Web"])
     return (num_matches, search_res)
 
 '''
 each node has the following structure:
-    sub-categories
-    parent
-    is_leaf
-    probes
-    new node creation
-        category_node = {}
-        category_node["parent"] = parent_category
-        category_node["sub_categories"] = set()
-        category_node["is_leaf"] = True
-        category_node["probes"] = []
+    sub-categories: set(sub-categories)
+    parent: string parent's name
+    is_leaf: boolean
+    probes: queries for this category
+    should include matches and top 4 results of each query
 '''
 # constants in category nodes
 PARENT = "parent"
 SUB_CATEGORIES = "sub_categories"
 IS_LEAF = "is_leaf"
 PROBES = "probes"
+COVERAGE = "coverage"
+SPECIFICITY = "specificity"
+ROOT = "Root"
 
 def make_new_category(parent_name):
     category_node = {}
@@ -45,6 +43,8 @@ def make_new_category(parent_name):
     category_node[SUB_CATEGORIES] = set()
     category_node[IS_LEAF] = True
     category_node[PROBES] = []
+    category_node[COVERAGE] = 0
+    category_node[SPECIFICITY] = 0.0
     return category_node
 
 def build_category_hierarchy():
@@ -54,7 +54,9 @@ def build_category_hierarchy():
     category_path = "./categories/"
     hierarchy = ["root", "computers", "health", "sports"]
     # root has no parent
-    tree["Root"] = make_new_category(None)
+    tree[ROOT] = make_new_category(None)
+    # special case for root
+    tree[ROOT][SPECIFICITY] = 1.0
 
     for filename in hierarchy:
         with open(category_path + filename + ".txt", "r") as f:
@@ -77,15 +79,3 @@ def build_category_hierarchy():
         tree[category_name.title()][IS_LEAF] = False
     return tree
 
-def main():
-    account_key = sys.argv[1]
-    t_es = float(sys.argv[2])
-    t_ec = int(sys.argv[3])
-    host_url = sys.argv[4]
-
-
-
-
-
-if __name__ == "__main__":
-    main()
