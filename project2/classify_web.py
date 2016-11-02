@@ -81,7 +81,6 @@ def is_ascii(string):
 
 def createDocumentSummaries(samples, nodes, host_url,tree):
     words ={}
-<<<<<<< HEAD
     program = "getWordsLynx"
     if program+".class" in os.listdir("."):
         compile_command = "javac " + program + ".java"
@@ -89,10 +88,7 @@ def createDocumentSummaries(samples, nodes, host_url,tree):
 
     for node in nodes:
         if tree[node][IS_LEAF]:
-            pass            
-=======
-    for node in nodes:
->>>>>>> a92f9ff8b792c87713c78fbf2788807b99b2fc5e
+            pass
         total_docs=len(samples[node])
         print ("Generating content summary for ", node)
         if (total_docs>0):
@@ -106,20 +102,11 @@ def createDocumentSummaries(samples, nodes, host_url,tree):
                 for l in file1:
                     l=l.strip()
                     words[l]=words.get(l,0)+1
-<<<<<<< HEAD
-=======
-
->>>>>>> a92f9ff8b792c87713c78fbf2788807b99b2fc5e
         filename = node+"-" +host_url+".txt"
         f = open(filename,"w")
         for (word, count) in sorted(words.iteritems(), key= lambda t :t[0]):
             line = word + "#" + str(count) + "\n"
-<<<<<<< HEAD
-            file.write(line)
-
-=======
             f.write(line)
->>>>>>> a92f9ff8b792c87713c78fbf2788807b99b2fc5e
 
 def main():
     account_key = sys.argv[1]
