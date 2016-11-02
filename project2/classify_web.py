@@ -53,8 +53,11 @@ def createDocumentSample(tree, nodes):
     prev=None
     for node in nodes:
         if prev is not None:
+            print("In if part")
             links=set()
             for url in samples[prev]:
+                links.add(url)
+            for sub_category_name in tree[node][SUB_CATEGORIES]:
                 for query in tree[sub_category_name][PROBES]:
                     for url in tree[sub_category_name][PROBES][query][:4]:
                         links.add(url)
@@ -66,12 +69,9 @@ def createDocumentSample(tree, nodes):
             if tree[node][IS_LEAF] is False:
                 for sub_category_name in tree[node][SUB_CATEGORIES]:
                     for query in tree[sub_category_name][PROBES]:
-                        count=0
-                        for url in tree[sub_category_name][PROBES][query]:
-                            if(count==4):
-                                break
+                        for url in tree[sub_category_name][PROBES][query][:4]:
+                            print(url)
                             links.add(url)
-                            count+=1;
             samples[node]=list(links)
             prev=node
     return samples
@@ -82,13 +82,14 @@ def is_ascii(string):
 def createDocumentSummaries(samples, nodes, host_url,tree):
     words ={}
     program = "getWordsLynx"
-    if program+".class" in os.listdir("."):
+    if program+".class" not in os.listdir("."):
         compile_command = "javac " + program + ".java"
         os.system(compile_command)
 
     for node in nodes:
         if tree[node][IS_LEAF]:
-            pass
+            continue
+
         total_docs=len(samples[node])
         print ("Generating content summary for ", node)
         if (total_docs>0):
@@ -155,6 +156,7 @@ def main():
             nodes.append(category_name)
             category_name = tree[category_name][PARENT]
         samples=createDocumentSample(tree,nodes)
+        print(samples)
         createDocumentSummaries(samples,nodes,host_url,tree)
 
 if __name__ == "__main__":
