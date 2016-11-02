@@ -42,11 +42,6 @@ def classify(category_name, tree, t_es, t_ec):
             tree[sub_category_name][SPECIFICITY] = spec
             print("Coverage:", cov)
             print("Specificity:", spec)
-            # for query in tree[sub_category_name][PROBES]:
-            #     #print(query, ":", len(tree[sub_category_name][PROBES][query]))
-            #     print(query, ":")
-            #     for url in tree[sub_category_name][PROBES][query]:
-            #         print (url)
             if spec >= t_es and cov >= t_ec:
                 result.extend(classify(sub_category_name, tree, t_es, t_ec))
         if not result:
@@ -60,8 +55,7 @@ def createDocumentSample(tree, nodes):
         if prev is not None:
             links=set()
             for url in samples[prev]:
-                links.add(url) 
-           
+                links.add(url)            
             for sub_category_name in tree[node][SUB_CATEGORIES]:    
                 for query in tree[sub_category_name][PROBES]:
                     count=0
@@ -71,9 +65,7 @@ def createDocumentSample(tree, nodes):
                         links.add(url)
                         count+=1;              
             samples[node]=list(links)
-            #print(node,prev)
             prev=node
-            #print(node, len(samples[node]))
         else:
             links=set()
             missinglinks=0
@@ -87,37 +79,39 @@ def createDocumentSample(tree, nodes):
                             links.add(url)
                             count+=1;
             samples[node]=list(links)
-            #print(node,prev)
             prev=node
-            #print(node, len(samples[node]))
     return samples
 
 def is_ascii(string):
     return all(ord(char) < 128 for char in string)
 
-def createDocumentSummaries(samples, nodes, host_url):
+def createDocumentSummaries(samples, nodes, host_url,tree):
     words ={}
-    for node in nodes:            
+    program = "getWordsLynx"
+    if program+".class" in os.listdir("."):
+        compile_command = "javac " + program + ".java"
+        os.system(compile_command)
+
+    for node in nodes:
+        if tree[node][IS_LEAF]:
+            pass            
         total_docs=len(samples[node])
-        print (node)
+        print ("Generating content summary for ", node)
         if (total_docs>0):
             for i in range(total_docs):
                 url = samples[node][i]
-                command = "java getWordsLynx " + url + " words.txt"
-                #print(command)
+                print("Getting content for ", url)
+                command = "java " + program + " " + url + " words.txt"
                 if(is_ascii(command)):
                     os.system(command)   
                 file1 = open("words.txt", "r")
                 for l in file1:
                     l=l.strip()
                     words[l]=words.get(l,0)+1
-                    #print(l,words.get(l))
-        #print(words)
         filename = node+"-" +host_url+".txt"
         file = open(filename,"w")
         for (word, count) in sorted(words.iteritems(), key= lambda t :t[0]):
             line = word + "#" + str(count) + "\n"
-            #print(line)
             file.write(line)
 
 
@@ -167,7 +161,7 @@ def main():
             nodes.append(category_name)
             category_name = tree[category_name][PARENT]
         samples=createDocumentSample(tree,nodes)
-        createDocumentSummaries(samples,nodes,host_url)
+        createDocumentSummaries(samples,nodes,host_url,tree)
 
 if __name__ == "__main__":
     main()

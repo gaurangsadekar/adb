@@ -13,7 +13,6 @@ aanzv#1
 aao#1
 aaqz#1
 aar#2
-aaron#1
 aat#1
 aauh#1
 aauu#1
@@ -183,6 +182,7 @@ ads#1
 adtq#1
 adu#1
 adv#1
+advance#2
 advanced#65
 advancement#1
 advantage#3
@@ -415,8 +415,7 @@ alegr#2
 alegre#1
 alejandro#1
 aleksandar#2
-aleksander#2
-aleksandr#1
+aleksander#1
 alem#1
 alemana#1
 alemanes#1
@@ -444,7 +443,6 @@ allemands#1
 allen#1
 aller#2
 allez#1
-allianz#2
 allons#1
 allowed#1
 allowing#1
@@ -534,7 +532,7 @@ amy#1
 amym#1
 amyzaq#1
 amz#1
-an#36
+an#37
 ana#2
 anb#1
 anc#1
@@ -557,7 +555,7 @@ anf#1
 anfa#1
 anfield#3
 anfw#1
-angel#2
+angel#1
 angeles#2
 angelo#1
 angerer#1
@@ -604,7 +602,6 @@ anticipated#1
 anticipo#1
 antidopaje#1
 antigua#1
-antoine#1
 antonio#3
 anu#2
 anular#1
@@ -657,7 +654,6 @@ apcu#1
 apdw#1
 ape#2
 apenas#1
-aper#2
 apf#1
 apg#2
 apga#1
@@ -750,13 +746,13 @@ ardq#1
 are#68
 area#4
 areas#4
-arena#5
+arena#3
 arendse#1
 arg#3
 argentina#16
 argentinaarg#1
 argentine#1
-argentinian#1
+argentinian#2
 argentinians#1
 argentino#2
 argentins#1
@@ -795,7 +791,7 @@ arrivera#1
 arropado#1
 arrows#1
 ars#1
-arsenal#8
+arsenal#7
 art#8
 arthur#1
 aruba#1
@@ -883,7 +879,6 @@ atjd#1
 atk#1
 atl#1
 atletas#1
-atletico#1
 atm#2
 atmosphere#1
 atouts#1
@@ -1089,7 +1084,6 @@ azk#1
 azklwh#1
 azl#2
 azm#1
-azmoun#1
 azmr#1
 azq#1
 azs#1
@@ -1128,9 +1122,8 @@ baja#1
 bajos#1
 bak#1
 bal#4
-balanta#1
 balcz#1
-bale#1
+bale#2
 ball#17
 ballack#1
 ballon#6
@@ -1143,6 +1136,7 @@ bamos#2
 ban#2
 banamex#1
 banc#1
+banco#2
 band#1
 banderas#1
 bangladesh#1
@@ -1153,7 +1147,7 @@ bar#1
 barbados#1
 barbosa#2
 barbuda#1
-barcelona#7
+barcelona#6
 barcelone#1
 bardsley#4
 bare#1
@@ -1171,7 +1165,7 @@ bas#2
 based#5
 baseencoding#1
 basefont#5
-basel#2
+basel#1
 bases#1
 basilea#1
 basketball#4
@@ -1183,7 +1177,7 @@ bather#1
 batistuta#1
 batshuayi#1
 battle#3
-battles#3
+battles#2
 battling#1
 battre#1
 bav#2
@@ -1195,8 +1189,8 @@ baxh#1
 baxr#1
 baxter#1
 bay#1
-bayer#2
-bayern#13
+bayer#3
+bayern#12
 bayx#1
 bb#6
 bba#1
@@ -1294,7 +1288,7 @@ becu#1
 bed#1
 bedo#1
 been#65
-before#15
+before#14
 befx#1
 beg#2
 began#4
@@ -1314,7 +1308,7 @@ bel#3
 belarus#4
 belarusblr#1
 beleza#2
-belgian#1
+belgian#2
 belgique#1
 belgium#8
 belief#1
@@ -1340,7 +1334,6 @@ benchmarks#1
 beneficia#1
 beneficiarse#1
 benefit#1
-benfica#1
 benin#1
 benz#1
 benzema#1
@@ -1360,7 +1353,7 @@ bested#1
 bet#5
 beta#28
 better#5
-between#20
+between#19
 beu#1
 bev#2
 bey#1
@@ -1662,7 +1655,7 @@ boquiabiertos#1
 bore#1
 boris#2
 born#6
-borussia#2
+borussia#3
 bos#1
 bosnia#4
 bosnians#1
@@ -1815,12 +1808,12 @@ brq#1
 brs#1
 brsx#1
 brt#1
+brugge#1
 bruit#1
 brunei#2
 brunner#1
 brunskill#1
 brussels#1
-bruyne#1
 brv#2
 brwdl#1
 brwp#1
@@ -2118,7 +2111,7 @@ camp#2
 campaign#9
 campbell#1
 campe#2
-campeonato#2
+campeonato#4
 campeones#1
 campin#1
 campos#1
@@ -2311,7 +2304,7 @@ celeste#1
 celltextishtmlbool#1
 celltexttext#1
 celta#1
-celtic#3
+celtic#2
 celui#1
 celular#5
 cem#2
@@ -2414,7 +2407,7 @@ challenging#2
 champion#9
 championnat#2
 championnats#1
-champions#21
+champions#20
 championship#9
 championships#2
 champs#1
@@ -2762,7 +2755,7 @@ collective#1
 college#1
 colombia#8
 colombiacol#1
-colombian#1
+colombian#2
 colombie#1
 colorado#3
 colorants#1
@@ -2825,7 +2818,7 @@ compense#1
 compete#4
 competed#1
 competencia#1
-competes#2
+competes#4
 competici#2
 competir#1
 competition#8
@@ -2898,7 +2891,7 @@ confirmez#1
 conflicting#1
 conformamos#1
 congo#1
-congratulated#3
+congratulated#2
 congress#9
 conjunto#1
 conmebol#2
@@ -2989,7 +2982,7 @@ contribute#2
 contributed#1
 contribution#5
 controlling#1
-controls#4
+controls#5
 controversy#1
 contundente#1
 convaincu#1
@@ -3015,6 +3008,7 @@ coopero#1
 coordinate#1
 cop#3
 copa#8
+copenhagen#1
 copyright#75
 coq#1
 coquetease#1
@@ -3024,6 +3018,7 @@ corbatta#1
 cord#1
 cordoba#1
 core#3
+corentin#3
 corinthians#3
 corner#2
 corona#1
@@ -3036,7 +3031,7 @@ cortar#1
 cos#1
 cosas#1
 cosechando#1
-costa#7
+costa#9
 costs#1
 cote#1
 cou#1
@@ -3149,7 +3144,7 @@ cri#1
 cricket#1
 crisply#1
 cristiane#1
-cristiano#2
+cristiano#3
 critica#1
 criticism#1
 criticize#1
@@ -3164,6 +3159,7 @@ croit#1
 cropbox#4
 crops#1
 cross#2
+crossbar#1
 crossed#1
 crotone#2
 crowd#1
@@ -3407,7 +3403,7 @@ czus#1
 czv#1
 czx#2
 czy#1
-d#32
+d#31
 da#10
 daa#2
 dabc#1
@@ -3531,7 +3527,7 @@ ddy#1
 ddyq#1
 ddz#1
 ddzsxc#1
-de#32
+de#31
 deabril#2
 deadlocked#1
 deal#1
@@ -3610,7 +3606,6 @@ demand#1
 demande#1
 demands#1
 demasiado#1
-dembele#1
 demolished#1
 demonstrate#1
 demonstrated#1
@@ -3795,7 +3790,7 @@ dhu#2
 dhv#2
 dhx#1
 dhz#2
-di#7
+di#6
 diablo#1
 diagne#1
 dialog#1
@@ -3820,7 +3815,7 @@ didn#3
 dido#1
 die#2
 died#2
-diego#5
+diego#4
 diehard#1
 dients#1
 dieron#1
@@ -3845,6 +3840,7 @@ dil#1
 dim#1
 dimensions#1
 dimom#1
+dinamo#1
 dingues#1
 dio#3
 diouf#1
@@ -3889,7 +3885,7 @@ disfrutar#2
 disorganised#1
 dispenser#1
 dispersed#1
-display#3
+display#1
 dispuesto#1
 disput#1
 disputable#1
@@ -4069,6 +4065,7 @@ dokq#1
 dolos#1
 dolw#1
 dom#3
+domagoj#1
 domain#1
 domaine#1
 domaines#1
@@ -4095,7 +4092,7 @@ donovan#3
 dooo#1
 doors#65
 dor#1
-dortmund#2
+dortmund#3
 dos#5
 dot#2
 dou#1
@@ -4188,7 +4185,6 @@ dribbling#1
 drinks#1
 driu#1
 drive#1
-drives#1
 driving#1
 drj#1
 drk#1
@@ -4292,7 +4288,7 @@ durabilit#3
 durability#1
 durante#3
 duration#1
-during#21
+during#20
 duro#1
 dus#2
 dust#1
@@ -4518,7 +4514,6 @@ ecss#1
 ecu#2
 ecuador#6
 ecuadorecu#1
-ecuadorian#1
 ecv#2
 ecy#1
 ed#7
@@ -4527,7 +4522,6 @@ edb#1
 edcx#1
 edd#1
 eddie#1
-eder#1
 edf#1
 edfr#1
 edg#1
@@ -4552,7 +4546,7 @@ edri#1
 edson#1
 edt#1
 edu#1
-eduardo#3
+eduardo#2
 education#2
 educational#2
 educativo#1
@@ -4679,7 +4673,7 @@ eii#1
 eiic#1
 eij#1
 eik#3
-eindhoven#2
+eindhoven#1
 eintracht#1
 eio#1
 eip#3
@@ -5066,6 +5060,7 @@ esb#1
 escenario#1
 escolta#1
 escucha#1
+escudero#1
 escurridizo#1
 esdv#1
 ese#4
@@ -5371,7 +5366,7 @@ eyae#1
 eyc#2
 eycw#1
 eye#4
-eyes#3
+eyes#4
 eyf#1
 eyfz#1
 eyg#1
@@ -5443,7 +5438,7 @@ fahrmann#1
 fai#2
 faiblesses#1
 failed#3
-failing#1
+failing#2
 fair#5
 faire#3
 fairly#1
@@ -5456,6 +5451,7 @@ faits#1
 faj#1
 fajbl#1
 fak#1
+falcao#1
 fall#1
 fallido#5
 falls#1
@@ -5530,7 +5526,7 @@ fbv#2
 fbx#2
 fby#2
 fbz#1
-fc#22
+fc#23
 fca#1
 fcb#2
 fcbe#1
@@ -5601,6 +5597,7 @@ fejn#1
 fejt#1
 fek#2
 fel#1
+felipe#1
 feliz#1
 fell#2
 fellow#2
@@ -5957,7 +5954,7 @@ followed#2
 follower#1
 followers#3
 following#8
-follows#1
+follows#2
 folq#1
 fom#1
 fomento#1
@@ -6130,7 +6127,7 @@ frk#1
 frn#1
 fro#2
 from#68
-front#7
+front#8
 fronts#1
 frp#2
 frs#1
@@ -6355,7 +6352,7 @@ ga#9
 gaa#1
 gaal#2
 gabon#2
-gabriel#3
+gabriel#4
 gac#1
 gad#1
 gaeg#1
@@ -6396,6 +6393,7 @@ gaq#2
 gaqgx#1
 gar#1
 gardien#2
+gareth#1
 gas#1
 gascoigne#1
 gasrq#1
@@ -6404,7 +6402,6 @@ gatb#1
 gatg#1
 gather#1
 gatifs#1
-gatskan#1
 gattuso#1
 gau#2
 gauge#1
@@ -6633,7 +6630,6 @@ giovinco#1
 gipo#1
 gir#1
 girls#3
-giroud#1
 gis#2
 git#1
 give#9
@@ -6767,7 +6763,7 @@ gnv#1
 gnx#1
 gny#2
 go#21
-goa#2
+goa#1
 goal#27
 goalcontrol#1
 goalie#1
@@ -6779,11 +6775,10 @@ goalscorers#1
 goalscoring#1
 gob#2
 gobierno#5
-godin#1
 goe#1
 goeatld#1
 goedz#1
-goes#1
+goes#2
 goessling#1
 gofd#1
 gofk#1
@@ -6800,7 +6795,7 @@ goles#3
 gom#3
 gone#3
 gonzalez#1
-gonzalo#2
+gonzalo#3
 goo#1
 good#8
 goodison#1
@@ -6906,7 +6901,6 @@ grenadines#2
 grew#3
 grg#1
 grh#1
-griezmann#1
 grind#1
 grinding#1
 grl#1
@@ -6915,10 +6909,10 @@ grmn#1
 grn#3
 gro#2
 grosseskino#1
-ground#3
+ground#4
 grounded#1
 grounds#1
-group#17
+group#16
 groupe#2
 groupidlong#1
 groupname#1
@@ -7018,7 +7012,6 @@ guiq#1
 guj#1
 gujo#1
 gun#1
-gundogan#1
 gunners#1
 gunning#2
 guo#2
@@ -7199,7 +7192,7 @@ handful#1
 handing#1
 handle#1
 handover#1
-hands#5
+hands#4
 handsomest#1
 hang#1
 hangs#1
@@ -7308,7 +7301,7 @@ hdv#1
 hdz#1
 he#24
 hea#1
-head#13
+head#12
 headed#2
 header#1
 heading#1
@@ -7460,7 +7453,6 @@ hib#1
 hic#1
 hiccups#1
 hid#2
-hidden#1
 hiddink#1
 hierba#1
 hif#1
@@ -7470,7 +7462,7 @@ highest#5
 highlight#1
 highlights#7
 highly#3
-higuain#2
+higuain#3
 hih#1
 hii#2
 hiiijjjhh#1
@@ -7496,6 +7488,7 @@ historical#1
 history#16
 hit#6
 hitos#1
+hits#1
 hitzfeld#5
 hiu#1
 hiv#2
@@ -7827,7 +7820,7 @@ hul#1
 hull#1
 huma#1
 human#1
-hummels#2
+hummels#1
 humor#1
 hun#1
 hungary#4
@@ -8256,7 +8249,6 @@ ile#2
 ilg#2
 ili#1
 ilk#3
-ilkay#1
 ill#2
 illmj#1
 illness#1
@@ -8508,7 +8500,7 @@ inveresk#1
 inversement#1
 inverser#1
 investigaci#1
-invierno#1
+invierno#3
 involve#1
 involved#4
 involvement#1
@@ -8596,8 +8588,7 @@ iqw#1
 iqwp#1
 iqx#1
 ir#7
-iran#2
-iranian#1
+iran#4
 iraq#1
 irb#1
 irc#2
@@ -9454,7 +9445,7 @@ jut#1
 juu#1
 juv#2
 juventud#1
-juventus#5
+juventus#8
 juvisy#1
 juw#1
 juy#1
@@ -9592,7 +9583,7 @@ kal#2
 kaliningrad#1
 kam#2
 kamara#2
-kampl#1
+kampl#2
 kan#2
 kanagawa#1
 kane#1
@@ -9790,6 +9781,7 @@ kgz#3
 kh#6
 khb#1
 khc#1
+khedira#1
 khf#1
 khh#2
 khj#1
@@ -9816,7 +9808,7 @@ khz#1
 ki#6
 kick#10
 kicking#2
-kicks#5
+kicks#4
 kid#2
 kids#8
 kif#2
@@ -9988,9 +9980,7 @@ koh#1
 koi#2
 koj#1
 kok#2
-koke#1
 kolodziejczak#1
-kolorov#1
 kon#1
 kong#1
 koo#2
@@ -10438,7 +10428,7 @@ leader#4
 leaders#4
 leadership#1
 leading#2
-league#23
+league#22
 leagues#28
 leandrinho#2
 leandro#1
@@ -10470,11 +10460,12 @@ legal#2
 legend#5
 legendary#1
 legends#1
+legia#1
 legr#1
 legs#2
 leh#1
 lehmann#1
-leicester#2
+leicester#3
 leigh#1
 leipzig#1
 leisure#1
@@ -10487,6 +10478,7 @@ len#2
 length#6
 leo#1
 leoe#1
+leonardo#1
 leone#1
 leonel#2
 leonessa#2
@@ -10509,9 +10501,8 @@ leurs#3
 level#6
 levelled#1
 levels#1
-leverkusen#2
+leverkusen#3
 lew#2
-lewandowski#1
 lewb#1
 lex#1
 ley#2
@@ -10531,7 +10522,6 @@ lfm#2
 lfn#1
 lfo#1
 lfp#1
-lfpb#2
 lfpp#1
 lfq#2
 lfr#2
@@ -10639,7 +10629,7 @@ linkopings#2
 links#11
 lio#1
 lion#1
-lionel#8
+lionel#7
 lioration#1
 lippi#1
 liq#1
@@ -10986,10 +10976,10 @@ lucerne#1
 lucha#2
 luchar#1
 lucia#1
+luciano#1
 luck#4
 lud#1
 ludc#1
-ludogorets#1
 lue#3
 luego#1
 lues#1
@@ -10997,7 +10987,7 @@ luf#2
 lugar#1
 luh#1
 lui#2
-luis#2
+luis#1
 luiz#2
 luj#1
 lukasz#4
@@ -11108,7 +11098,8 @@ lyl#2
 lym#2
 lyn#1
 lynn#1
-lyon#3
+lyon#4
+lyonnais#2
 lys#1
 lyt#1
 lyv#1
@@ -11210,10 +11201,11 @@ management#1
 manager#1
 manaos#1
 manaus#2
-manchester#7
+manchester#6
 mandaron#1
 mandate#1
 mandela#1
+mandzukic#2
 mane#6
 manera#2
 manier#1
@@ -11249,9 +11241,9 @@ marched#1
 marco#5
 marcus#1
 mardi#2
-maria#2
+maria#1
 marino#3
-mario#6
+mario#8
 marios#1
 marith#1
 mark#2
@@ -11283,7 +11275,7 @@ massive#1
 master#2
 masterminds#1
 mat#4
-match#37
+match#36
 matchcast#10
 matchday#2
 matchdays#1
@@ -11295,7 +11287,7 @@ mathis#1
 matias#1
 matija#1
 matin#1
-mats#2
+mats#1
 matt#2
 matter#2
 matters#2
@@ -11458,6 +11450,7 @@ mep#3
 mepb#1
 meq#1
 mer#2
+mercado#1
 mercedes#1
 merci#3
 mercredi#2
@@ -11467,9 +11460,8 @@ merida#1
 mero#2
 mes#4
 meses#3
-messi#11
+messi#10
 mesure#1
-mesut#1
 met#3
 meta#3
 metadata#4
@@ -11483,7 +11475,6 @@ mettons#1
 mettre#2
 meu#2
 meug#1
-meunier#1
 mewis#1
 mexica#1
 mexican#2
@@ -11819,6 +11810,7 @@ momentos#2
 moments#2
 momentum#2
 mon#3
+monaco#1
 monchengladbach#1
 moncton#1
 monday#16
@@ -11867,7 +11859,6 @@ motor#1
 mots#1
 mou#1
 mountains#2
-moussa#1
 mouth#1
 moutinho#1
 move#2
@@ -12024,7 +12015,7 @@ mun#4
 mundial#5
 mundiales#1
 mundo#5
-munich#11
+munich#10
 muniqueses#1
 mup#2
 muq#1
@@ -12162,7 +12153,7 @@ mzwi#1
 mzx#2
 mzxt#1
 mzy#1
-n#15
+n#16
 na#6
 naa#1
 nab#1
@@ -12202,7 +12193,6 @@ nas#2
 nash#2
 nastasic#1
 natal#1
-natanael#1
 nati#2
 nation#5
 national#20
@@ -12602,7 +12592,6 @@ nny#1
 nnz#1
 no#29
 nob#1
-noboa#1
 nobody#4
 noc#1
 nocei#1
@@ -13064,6 +13053,7 @@ odhma#1
 odi#1
 odj#2
 odjg#1
+odjidja#1
 odk#1
 odl#1
 odm#2
@@ -13278,7 +13268,6 @@ olh#1
 oli#1
 olimpico#1
 oliver#1
-olivier#1
 olj#2
 oll#1
 olpy#1
@@ -13294,7 +13283,7 @@ olvidar#1
 oly#3
 olympic#8
 olympics#2
-olympique#2
+olympique#4
 olz#3
 om#6
 oma#2
@@ -13394,7 +13383,7 @@ open#3
 openaction#1
 opened#1
 opener#1
-opening#7
+opening#8
 opens#65
 operating#1
 operation#1
@@ -13417,7 +13406,7 @@ opp#1
 opponents#5
 opportunit#1
 opportunities#1
-opportunity#6
+opportunity#7
 opposing#1
 opposite#1
 opposition#2
@@ -13697,7 +13686,6 @@ oze#1
 ozf#2
 ozh#1
 ozi#1
-ozil#1
 ozj#2
 ozk#2
 ozm#1
@@ -13762,7 +13750,7 @@ parcours#1
 parent#6
 parents#1
 parer#1
-paris#7
+paris#6
 park#4
 parl#1
 parlent#1
@@ -13827,6 +13815,7 @@ paul#1
 paule#1
 paulo#5
 pave#1
+pavicic#1
 pay#2
 payer#1
 paying#1
@@ -13925,7 +13914,7 @@ pen#1
 pena#2
 penales#1
 penalties#3
-penalty#10
+penalty#9
 pendant#2
 pense#1
 pensent#1
@@ -13989,6 +13978,7 @@ pesar#1
 pese#1
 pesos#1
 pet#1
+petar#1
 peter#2
 petersburg#2
 petersburgsaint#1
@@ -14318,7 +14308,6 @@ poldi#1
 poles#1
 polga#1
 policy#66
-polish#1
 politique#3
 polo#1
 pom#1
@@ -14347,11 +14336,12 @@ portero#1
 portes#3
 portfolio#1
 portland#4
-porto#1
+porto#2
 portrait#2
 portugal#11
 portugalpor#1
 portugu#73
+portuguese#1
 posaient#1
 pose#2
 posee#2
@@ -14691,7 +14681,7 @@ psr#2
 pss#2
 pst#1
 psu#1
-psv#3
+psv#2
 psvk#1
 psw#1
 psx#1
@@ -14743,7 +14733,7 @@ puj#1
 pujbs#1
 puk#1
 pul#1
-pulisic#1
+pulisic#2
 pull#2
 pulled#1
 puln#1
@@ -15559,6 +15549,7 @@ racha#1
 racing#1
 racism#1
 rad#1
+radamel#1
 radebe#1
 radosavljevic#1
 rae#1
@@ -15580,7 +15571,6 @@ ramadan#4
 ramj#1
 ramos#1
 rampaging#1
-ramsey#1
 ran#3
 range#3
 rangers#3
@@ -15702,12 +15692,12 @@ reach#3
 reached#4
 reaching#1
 reactions#1
-reacts#2
+reacts#3
 read#64
 readmitted#1
 reads#1
 ready#3
-real#11
+real#12
 realisation#1
 realise#1
 realised#1
@@ -16039,7 +16029,7 @@ ria#1
 rib#1
 ribery#1
 ribn#1
-rica#6
+rica#8
 ricardinho#2
 ricardo#1
 rich#3
@@ -16213,7 +16203,7 @@ roa#1
 road#11
 roafi#1
 robbie#1
-robert#2
+robert#1
 roberto#3
 robin#2
 robinson#1
@@ -16245,7 +16235,7 @@ romania#3
 romans#2
 romario#2
 ronaldinho#3
-ronaldo#7
+ronaldo#8
 roner#1
 ronnie#1
 roo#1
@@ -16262,7 +16252,7 @@ rose#1
 rosengard#2
 rossi#1
 rosters#1
-rostov#3
+rostov#2
 rot#2
 rotate#4
 rott#1
@@ -16597,7 +16587,7 @@ sag#1
 sagamihara#1
 sah#1
 said#10
-saint#7
+saint#6
 saisi#1
 saisir#3
 sait#1
@@ -16615,13 +16605,13 @@ salt#4
 salto#1
 salud#1
 salvador#3
-salvio#1
 salzburg#1
 sam#1
 samantha#1
 samara#1
 same#11
 samedi#1
+sami#1
 samoa#1
 samoura#4
 samples#1
@@ -16642,7 +16632,6 @@ saq#1
 saqr#1
 sar#2
 saransk#1
-sardar#1
 sarp#1
 sarre#1
 sasb#1
@@ -16725,7 +16714,7 @@ sclf#1
 scm#1
 scn#2
 sco#2
-score#12
+score#13
 scored#9
 scoreless#2
 scoreline#1
@@ -16787,7 +16776,7 @@ seb#1
 sebasitan#1
 sebastian#1
 secdvn#1
-second#16
+second#15
 seconds#2
 secret#2
 secretary#4
@@ -16863,6 +16852,7 @@ ser#4
 serais#1
 serbia#3
 sereins#1
+sergio#1
 serie#8
 series#5
 serious#2
@@ -16896,6 +16886,7 @@ seven#4
 seventh#1
 several#6
 severed#1
+sevilla#1
 sexwale#1
 sexx#1
 seyai#1
@@ -16948,7 +16939,6 @@ sgy#1
 sgyh#1
 sh#6
 shaarawy#1
-shake#1
 shanghai#1
 shape#2
 shapiro#3
@@ -16989,7 +16979,7 @@ shone#1
 shoot#5
 shooting#1
 shootout#2
-shoots#1
+shoots#2
 shop#65
 short#4
 shortcomings#1
@@ -17035,6 +17025,7 @@ sif#1
 sifflet#1
 sig#1
 siga#1
+sigali#1
 sight#2
 sights#1
 sign#66
@@ -17328,7 +17319,7 @@ spa#1
 space#4
 spacious#1
 spahic#1
-spain#11
+spain#13
 spainesp#1
 spanish#2
 spans#1
@@ -17369,7 +17360,7 @@ sportive#1
 sports#13
 sportsman#1
 sportsmen#1
-spot#8
+spot#7
 spotlight#5
 spp#1
 sppg#1
@@ -17526,7 +17517,7 @@ stephan#1
 stephen#1
 stepping#1
 steve#2
-steven#1
+steven#2
 stevt#1
 stewardship#1
 stf#3
@@ -17544,6 +17535,7 @@ stm#2
 stmf#1
 stock#1
 stoichkov#2
+stojanovic#1
 stoke#7
 stood#1
 stopp#1
@@ -17600,7 +17592,7 @@ style#4
 stype#1
 su#11
 sua#1
-suarez#2
+suarez#1
 suave#1
 sub#7
 subcampe#1
@@ -17861,6 +17853,7 @@ table#6
 tablissements#1
 tackle#2
 tackled#1
+tackles#1
 tactically#2
 tactique#1
 tad#1
@@ -17989,9 +17982,9 @@ tdy#1
 tdz#1
 tdzk#1
 te#13
-team#36
+team#35
 teammate#1
-teammates#2
+teammates#1
 teams#52
 teases#1
 tec#1
@@ -18152,7 +18145,7 @@ thitz#1
 thj#2
 thn#2
 thnj#1
-thomas#4
+thomas#3
 thompson#1
 thorns#1
 thoroughly#1
@@ -18169,7 +18162,6 @@ thrash#1
 threat#2
 threats#3
 three#15
-thrid#1
 thrilled#1
 thriller#1
 thrilling#1
@@ -18376,6 +18368,7 @@ toilettes#1
 tok#1
 tokyo#2
 told#2
+tolisso#3
 tom#5
 tomaz#1
 tome#1
@@ -18409,7 +18402,6 @@ totti#1
 tou#1
 touch#7
 touche#1
-touches#1
 touchline#2
 tough#6
 toujours#2
@@ -18559,7 +18551,7 @@ trojansber#1
 tromper#1
 trop#1
 troph#1
-trophy#15
+trophy#13
 trot#1
 trouble#2
 trp#1
@@ -18887,7 +18879,7 @@ udw#1
 udx#1
 udz#2
 ue#6
-uefa#19
+uefa#18
 ueg#3
 ueh#1
 uehkq#1
@@ -19304,7 +19296,6 @@ urr#2
 urs#2
 uru#1
 uruguay#8
-uruguayan#1
 uruguayuru#2
 urv#1
 urx#1
@@ -19514,6 +19505,7 @@ vaa#2
 vab#1
 vac#1
 vad#1
+vadis#1
 vae#2
 vag#2
 vague#1
@@ -19525,6 +19517,7 @@ vak#1
 valbuena#3
 valdr#2
 valencia#1
+valere#1
 valerien#1
 valeur#2
 valid#65
@@ -19785,7 +19778,7 @@ videmment#1
 video#10
 videojuego#1
 videos#65
-vie#2
+vie#3
 viejito#1
 vienen#1
 vienna#2
@@ -19795,6 +19788,7 @@ viento#2
 viernes#4
 vies#2
 vietnam#1
+vietto#1
 view#6
 viewed#2
 viewers#1
@@ -19852,6 +19846,7 @@ visual#3
 visz#1
 vit#1
 vite#2
+vitolo#1
 vittsjo#1
 viv#1
 vivianne#1
@@ -20323,6 +20318,7 @@ warner#1
 warns#2
 warrior#1
 wars#1
+warsaw#1
 wartime#1
 wary#1
 was#29
@@ -20339,7 +20335,7 @@ wav#1
 wave#2
 waw#2
 wax#1
-way#16
+way#17
 wayne#5
 ways#1
 waz#1
@@ -20445,7 +20441,7 @@ weje#1
 wek#1
 welcome#2
 well#14
-welsh#1
+welsh#2
 wembley#3
 wen#2
 went#6
@@ -20457,6 +20453,7 @@ werder#1
 were#65
 weren#1
 wes#1
+wesley#1
 west#6
 western#6
 wet#1
@@ -22315,6 +22312,7 @@ zad#1
 zae#1
 zaft#1
 zag#2
+zagreb#1
 zaje#1
 zal#1
 zam#1
@@ -22676,6 +22674,7 @@ zok#2
 zona#1
 zonb#1
 zone#2
+zonzi#1
 zop#1
 zoq#1
 zor#1
@@ -22885,70 +22884,3 @@ zxc#1
 zxcef#1
 zxe#1
 zxf#2
-zxg#1
-zxgz#1
-zxi#1
-zxjx#1
-zxl#2
-zxm#1
-zxn#1
-zxp#1
-zxq#1
-zxr#1
-zxs#1
-zxsym#1
-zxv#1
-zxw#2
-zxy#1
-zxz#2
-zxze#1
-zxzs#1
-zy#6
-zya#1
-zyb#2
-zybb#1
-zyd#2
-zye#1
-zyf#2
-zygm#1
-zyh#1
-zyj#2
-zyk#1
-zykq#1
-zyl#1
-zylql#1
-zyn#2
-zynb#1
-zynh#1
-zyon#1
-zyp#1
-zyq#1
-zyr#3
-zyv#1
-zyw#1
-zyy#2
-zyz#1
-zz#6
-zza#2
-zzc#1
-zzf#1
-zzg#1
-zzgj#1
-zzgw#1
-zzi#1
-zzijt#1
-zzm#1
-zzn#2
-zzo#2
-zzp#2
-zzs#1
-zzsy#1
-zzuo#1
-zzv#2
-zzw#1
-zzx#1
-zzy#1
-zzz#3
-zzzba#1
-zzzr#1
-zzzy#1

@@ -52,7 +52,7 @@ def build_category_hierarchy():
     # read queries from the category files
     # build a dict with query probes for each category
     category_path = "./categories/"
-    hierarchy = ["Root", "Computers", "Health", "Sports"]
+    hierarchy = ["root", "computers", "health", "sports"]
     # root has no parent
     tree[ROOT] = make_new_category(None)
     # special case for root
