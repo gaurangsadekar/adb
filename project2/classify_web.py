@@ -42,11 +42,6 @@ def classify(category_name, tree, t_es, t_ec):
             tree[sub_category_name][SPECIFICITY] = spec
             print("Coverage:", cov)
             print("Specificity:", spec)
-            # for query in tree[sub_category_name][PROBES]:
-            #     #print(query, ":", len(tree[sub_category_name][PROBES][query]))
-            #     print(query, ":")
-            #     for url in tree[sub_category_name][PROBES][query]:
-            #         print (url)
             if spec >= t_es and cov >= t_ec:
                 result.extend(classify(sub_category_name, tree, t_es, t_ec))
         if not result:
@@ -60,25 +55,19 @@ def createDocumentSample(tree, nodes):
         if prev is not None:
             links=set()
             for url in samples[prev]:
-                links.add(url) 
-           
-            for sub_category_name in tree[node][SUB_CATEGORIES]:    
+                links.add(url)
+
+            for sub_category_name in tree[node][SUB_CATEGORIES]:
                 for query in tree[sub_category_name][PROBES]:
-                    count=0
-                    for url in tree[sub_category_name][PROBES][query]:
-                        if (count==4):
-                            break
+                    for url in tree[sub_category_name][PROBES][query][:4]:
                         links.add(url)
-                        count+=1;              
             samples[node]=list(links)
-            #print(node,prev)
             prev=node
-            #print(node, len(samples[node]))
         else:
             links=set()
             missinglinks=0
             if tree[node][IS_LEAF] is False:
-                for sub_category_name in tree[node][SUB_CATEGORIES]: 
+                for sub_category_name in tree[node][SUB_CATEGORIES]:
                     for query in tree[sub_category_name][PROBES]:
                         count=0
                         for url in tree[sub_category_name][PROBES][query]:
@@ -87,9 +76,7 @@ def createDocumentSample(tree, nodes):
                             links.add(url)
                             count+=1;
             samples[node]=list(links)
-            #print(node,prev)
             prev=node
-            #print(node, len(samples[node]))
     return samples
 
 def is_ascii(string):
@@ -97,7 +84,7 @@ def is_ascii(string):
 
 def createDocumentSummaries(samples, nodes, host_url):
     words ={}
-    for node in nodes:            
+    for node in nodes:
         total_docs=len(samples[node])
         print (node)
         if (total_docs>0):
@@ -106,20 +93,17 @@ def createDocumentSummaries(samples, nodes, host_url):
                 command = "java getWordsLynx " + url + " words.txt"
                 #print(command)
                 if(is_ascii(command)):
-                    os.system(command)   
+                    os.system(command)
                 file1 = open("words.txt", "r")
                 for l in file1:
                     l=l.strip()
                     words[l]=words.get(l,0)+1
-                    #print(l,words.get(l))
-        #print(words)
+
         filename = node+"-" +host_url+".txt"
-        file = open(filename,"w")
+        f = open(filename,"w")
         for (word, count) in sorted(words.iteritems(), key= lambda t :t[0]):
             line = word + "#" + str(count) + "\n"
-            #print(line)
-            file.write(line)
-
+            f.write(line)
 
 def main():
     account_key = sys.argv[1]
@@ -155,8 +139,9 @@ def main():
             category_name = tree[category_name][PARENT]
         # for node in reversed(nodes):
         paths.append("/".join(reversed(nodes)))
-        
-    print("Classification for URL", host_url)
+
+    # Printing Classification Labels for the host URL
+    print("Classification for URL:", host_url)
     map(lambda path: print(path), paths)
 
     for label in labels:
