@@ -52,7 +52,7 @@ def build_category_hierarchy():
     # read queries from the category files
     # build a dict with query probes for each category
     category_path = "./categories/"
-    hierarchy = ["root", "computers", "health", "sports"]
+    hierarchy = ["Root", "Computers", "Health", "Sports"]
     # root has no parent
     tree[ROOT] = make_new_category(None)
     # special case for root
@@ -74,7 +74,7 @@ def build_category_hierarchy():
                    tree[category_name] = node
                    tree[parent_name][SUB_CATEGORIES].add(category_name)
 
-    # mark all nodes in hierarchy is non-leaves
+    # mark all nodes in hierarchy as non-leaves
     for category_name in hierarchy:
         tree[category_name.title()][IS_LEAF] = False
     return tree

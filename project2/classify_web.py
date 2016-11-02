@@ -18,6 +18,7 @@ def get_bing_results_for_hierarchy(tree, category_name, account_key, host_url):
         print("Query String:", query, "No. of matches:", num_matches)
         tree[category_name][COVERAGE] += num_matches
         probe_to_sample[query] = search_urls
+        print(query, len(search_urls))
     # changing the type of the probes
     tree[category_name][PROBES] = probe_to_sample
 
@@ -41,11 +42,84 @@ def classify(category_name, tree, t_es, t_ec):
             tree[sub_category_name][SPECIFICITY] = spec
             print("Coverage:", cov)
             print("Specificity:", spec)
+            # for query in tree[sub_category_name][PROBES]:
+            #     #print(query, ":", len(tree[sub_category_name][PROBES][query]))
+            #     print(query, ":")
+            #     for url in tree[sub_category_name][PROBES][query]:
+            #         print (url)
             if spec >= t_es and cov >= t_ec:
                 result.extend(classify(sub_category_name, tree, t_es, t_ec))
         if not result:
             result.append(category_name)
     return result
+
+def createDocumentSample(tree, nodes):
+    samples = {}
+    prev=None
+    for node in nodes:
+        if prev is not None:
+            links=set()
+            for url in samples[prev]:
+                links.add(url) 
+           
+            for sub_category_name in tree[node][SUB_CATEGORIES]:    
+                for query in tree[sub_category_name][PROBES]:
+                    count=0
+                    for url in tree[sub_category_name][PROBES][query]:
+                        if (count==4):
+                            break
+                        links.add(url)
+                        count+=1;              
+            samples[node]=list(links)
+            #print(node,prev)
+            prev=node
+            #print(node, len(samples[node]))
+        else:
+            links=set()
+            missinglinks=0
+            if tree[node][IS_LEAF] is False:
+                for sub_category_name in tree[node][SUB_CATEGORIES]: 
+                    for query in tree[sub_category_name][PROBES]:
+                        count=0
+                        for url in tree[sub_category_name][PROBES][query]:
+                            if(count==4):
+                                break
+                            links.add(url)
+                            count+=1;
+            samples[node]=list(links)
+            #print(node,prev)
+            prev=node
+            #print(node, len(samples[node]))
+    return samples
+
+def is_ascii(string):
+    return all(ord(char) < 128 for char in string)
+
+def createDocumentSummaries(samples, nodes, host_url):
+    words ={}
+    for node in nodes:            
+        total_docs=len(samples[node])
+        print (node)
+        if (total_docs>0):
+            for i in range(total_docs):
+                url = samples[node][i]
+                command = "java getWordsLynx " + url + " words.txt"
+                #print(command)
+                if(is_ascii(command)):
+                    os.system(command)   
+                file1 = open("words.txt", "r")
+                for l in file1:
+                    l=l.strip()
+                    words[l]=words.get(l,0)+1
+                    #print(l,words.get(l))
+        #print(words)
+        filename = node+"-" +host_url+".txt"
+        file = open(filename,"w")
+        for (word, count) in sorted(words.iteritems(), key= lambda t :t[0]):
+            line = word + "#" + str(count) + "\n"
+            #print(line)
+            file.write(line)
+
 
 def main():
     account_key = sys.argv[1]
@@ -53,6 +127,7 @@ def main():
     t_ec = int(sys.argv[3])
     host_url = sys.argv[4]
     cached = True if len(sys.argv) == 6 and sys.argv[5] == "cached" else False
+    print("Building category hierarchy")
     tree = build_category_hierarchy()
     # gets all bing related results for the given 'database' ie. host url
     # and puts relevant info in the tree itself
@@ -74,13 +149,25 @@ def main():
     for label in labels:
         nodes = []
         category_name = label
+        samples={}
         while category_name is not None:
             nodes.append(category_name)
             category_name = tree[category_name][PARENT]
+        # for node in reversed(nodes):
         paths.append("/".join(reversed(nodes)))
-
+        
     print("Classification for URL", host_url)
     map(lambda path: print(path), paths)
+
+    for label in labels:
+        nodes = []
+        category_name = label
+        samples={}
+        while category_name is not None:
+            nodes.append(category_name)
+            category_name = tree[category_name][PARENT]
+        samples=createDocumentSample(tree,nodes)
+        createDocumentSummaries(samples,nodes,host_url)
 
 if __name__ == "__main__":
     main()
