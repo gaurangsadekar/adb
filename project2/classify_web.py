@@ -15,10 +15,8 @@ def get_bing_results_for_hierarchy(tree, category_name, account_key, host_url):
     probe_to_sample = {}
     for query in tree[category_name][PROBES]:
         num_matches, search_urls = bing_web_search(account_key, host_url, query)
-        print("Query String:", query, "No. of matches:", num_matches)
         tree[category_name][COVERAGE] += num_matches
         probe_to_sample[query] = search_urls
-        print(query, len(search_urls))
     # changing the type of the probes
     tree[category_name][PROBES] = probe_to_sample
 
@@ -53,7 +51,6 @@ def createDocumentSample(tree, nodes):
     prev=None
     for node in nodes:
         if prev is not None:
-            print("In if part")
             links=set()
             for url in samples[prev]:
                 links.add(url)
@@ -70,7 +67,6 @@ def createDocumentSample(tree, nodes):
                 for sub_category_name in tree[node][SUB_CATEGORIES]:
                     for query in tree[sub_category_name][PROBES]:
                         for url in tree[sub_category_name][PROBES][query][:4]:
-                            print(url)
                             links.add(url)
             samples[node]=list(links)
             prev=node
@@ -91,11 +87,11 @@ def createDocumentSummaries(samples, nodes, host_url,tree):
             continue
 
         total_docs=len(samples[node])
-        print ("Generating content summary for ", node)
+        print ("Generating content summary for", node)
         if (total_docs>0):
             for i in range(total_docs):
                 url = samples[node][i]
-                print("Getting content for ", url)
+                print("Getting page:", url)
                 command = "java " + program + " " + url + " words.txt"
                 if(is_ascii(command)):
                     os.system(command)
@@ -151,12 +147,10 @@ def main():
     for label in labels:
         nodes = []
         category_name = label
-        samples={}
         while category_name is not None:
             nodes.append(category_name)
             category_name = tree[category_name][PARENT]
         samples=createDocumentSample(tree,nodes)
-        print(samples)
         createDocumentSummaries(samples,nodes,host_url,tree)
 
 if __name__ == "__main__":
