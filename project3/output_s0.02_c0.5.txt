@@ -1,0 +1,59 @@
+Frequent Itemsets (Min. Support = 0.02%)
+======================================
+[borough: MANHATTAN], 39.92888229883164
+[borough: BROOKLYN], 24.396712293660272
+[borough: QUEENS], 23.45808677824
+[cuisine: American], 23.119431058390653
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.], 13.738209975699164
+[cuisine: American,borough: MANHATTAN], 12.093899162971201
+[cuisine: Chinese], 10.839042428069982
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.], 9.771819267679888
+[borough: BRONX], 8.825871466425031
+[violation: Cold food item held above 41Âº F (smoked fish and reduced oxygen packaged foods above 38 ÂºF) except during necessary preparation.], 7.536691516674217
+[violation: Evidence of mice or live mice present in facility's food and/or non-food areas.], 6.9012543990920365
+[violation: Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.], 6.253689745596332
+[violation: Food not protected from potential source of contamination during storage, preparation, transportation, display or service.], 5.952560740649212
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,borough: MANHATTAN], 5.456475875356389
+[violation: Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.], 5.411855696051915
+[cuisine: American,borough: BROOKLYN], 4.851700829706513
+[violation: Hot food item not held at or above 140Âº F.], 4.808453578996023
+[violation: Filth flies or food/refuse/sewage-associated (FRSA) flies present in facilitys food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.], 4.767494542608839
+[cuisine: Latin (Cuban, Dominican, Puerto Rican, South & Central American)], 4.765435149717863
+[cuisine: Pizza], 4.746900613699082
+[cuisine: Italian], 4.5922173254435705
+[cuisine: American,borough: QUEENS], 3.8590734562562066
+[cuisine: Mexican], 3.763426097542
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,borough: MANHATTAN], 3.6977543464631073
+[cuisine: CafÃ©/Coffee/Tea], 3.6723551674744064
+[cuisine: Japanese], 3.5760213444632076
+[borough: STATEN ISLAND], 3.3849554484671254
+[cuisine: Chinese,borough: BROOKLYN], 3.3481151978618926
+[violation: Cold food item held above 41Âº F (smoked fish and reduced oxygen packaged foods above 38 ÂºF) except during necessary preparation.,borough: MANHATTAN], 3.324546590331837
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,cuisine: American], 3.3071561614747083
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,borough: BROOKLYN], 3.3037238399897486
+[cuisine: Chinese,borough: QUEENS], 3.2881639825912656
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,borough: QUEENS], 3.2716888394634593
+[cuisine: Caribbean], 3.134167158632746
+[cuisine: Bakery], 3.0227311210877255
+[cuisine: Spanish], 2.9366942625314056
+[violation: Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.,borough: MANHATTAN], 2.7440266165090086
+[cuisine: Chinese,borough: MANHATTAN], 2.706728723039115
+[cuisine: Italian,borough: MANHATTAN], 2.6655408652196
+[violation: Evidence of mice or live mice present in facility's food and/or non-food areas.,borough: MANHATTAN], 2.5520454347836035
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,borough: BROOKLYN], 2.540833184599402
+[violation: Food not protected from potential source of contamination during storage, preparation, transportation, display or service.,borough: MANHATTAN], 2.412922003926576
+[violation: Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.], 2.4085743967122935
+[violation: Live roaches present in facility's food and/or non-food areas.], 2.366700074595787
+[violation: Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.,borough: MANHATTAN], 2.293248394817652
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,borough: QUEENS], 2.282493787498112
+[violation: Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.], 2.2262037151447753
+[cuisine: Japanese,borough: MANHATTAN], 2.121632320569674
+[cuisine: Pizza/Italian], 2.112021820411787
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,cuisine: American], 2.093716105825336
+
+
+Association Rules (Min. Confidence: 0.5%)
+======================================
+[cuisine: Japanese] => [borough: MANHATTAN] (Confidence: 59.32940875351933%, Support: 2.121632320569674%)
+[cuisine: Italian] => [borough: MANHATTAN] (Confidence: 58.044745627584824%, Support: 2.6655408652196%)
+[cuisine: American] => [borough: MANHATTAN] (Confidence: 52.31053970327702%, Support: 12.093899162971201%)

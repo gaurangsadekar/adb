@@ -1,0 +1,129 @@
+Frequent Itemsets (Min. Support = 0.01%)
+======================================
+[borough: MANHATTAN], 39.92888229883164
+[borough: BROOKLYN], 24.396712293660272
+[borough: QUEENS], 23.45808677824
+[cuisine: American], 23.119431058390653
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.], 13.738209975699164
+[cuisine: American,borough: MANHATTAN], 12.093899162971201
+[cuisine: Chinese], 10.839042428069982
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.], 9.771819267679888
+[borough: BRONX], 8.825871466425031
+[violation: Cold food item held above 41Âº F (smoked fish and reduced oxygen packaged foods above 38 ÂºF) except during necessary preparation.], 7.536691516674217
+[violation: Evidence of mice or live mice present in facility's food and/or non-food areas.], 6.9012543990920365
+[violation: Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.], 6.253689745596332
+[violation: Food not protected from potential source of contamination during storage, preparation, transportation, display or service.], 5.952560740649212
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,borough: MANHATTAN], 5.456475875356389
+[violation: Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.], 5.411855696051915
+[cuisine: American,borough: BROOKLYN], 4.851700829706513
+[violation: Hot food item not held at or above 140Âº F.], 4.808453578996023
+[violation: Filth flies or food/refuse/sewage-associated (FRSA) flies present in facilitys food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.], 4.767494542608839
+[cuisine: Latin (Cuban, Dominican, Puerto Rican, South & Central American)], 4.765435149717863
+[cuisine: Pizza], 4.746900613699082
+[cuisine: Italian], 4.5922173254435705
+[cuisine: American,borough: QUEENS], 3.8590734562562066
+[cuisine: Mexican], 3.763426097542
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,borough: MANHATTAN], 3.6977543464631073
+[cuisine: CafÃ©/Coffee/Tea], 3.6723551674744064
+[cuisine: Japanese], 3.5760213444632076
+[borough: STATEN ISLAND], 3.3849554484671254
+[cuisine: Chinese,borough: BROOKLYN], 3.3481151978618926
+[violation: Cold food item held above 41Âº F (smoked fish and reduced oxygen packaged foods above 38 ÂºF) except during necessary preparation.,borough: MANHATTAN], 3.324546590331837
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,cuisine: American], 3.3071561614747083
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,borough: BROOKLYN], 3.3037238399897486
+[cuisine: Chinese,borough: QUEENS], 3.2881639825912656
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,borough: QUEENS], 3.2716888394634593
+[cuisine: Caribbean], 3.134167158632746
+[cuisine: Bakery], 3.0227311210877255
+[cuisine: Spanish], 2.9366942625314056
+[violation: Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.,borough: MANHATTAN], 2.7440266165090086
+[cuisine: Chinese,borough: MANHATTAN], 2.706728723039115
+[cuisine: Italian,borough: MANHATTAN], 2.6655408652196
+[violation: Evidence of mice or live mice present in facility's food and/or non-food areas.,borough: MANHATTAN], 2.5520454347836035
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,borough: BROOKLYN], 2.540833184599402
+[violation: Food not protected from potential source of contamination during storage, preparation, transportation, display or service.,borough: MANHATTAN], 2.412922003926576
+[violation: Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.], 2.4085743967122935
+[violation: Live roaches present in facility's food and/or non-food areas.], 2.366700074595787
+[violation: Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.,borough: MANHATTAN], 2.293248394817652
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,borough: QUEENS], 2.282493787498112
+[violation: Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.], 2.2262037151447753
+[cuisine: Japanese,borough: MANHATTAN], 2.121632320569674
+[cuisine: Pizza/Italian], 2.112021820411787
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,cuisine: American], 2.093716105825336
+[cuisine: CafÃ©/Coffee/Tea,borough: MANHATTAN], 1.9429227819194457
+[violation: Filth flies or food/refuse/sewage-associated (FRSA) flies present in facilitys food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.,borough: MANHATTAN], 1.9216423887126963
+[violation: Wiping cloths soiled or not stored in sanitizing solution.], 1.9015061026676003
+[violation: Personal cleanliness inadequate. Outer garment soiled with possible contaminant.  Effective hair restraint not worn in an area where food is prepared.], 1.8566571019307951
+[violation: Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.,cuisine: American], 1.85116538755486
+[violation: Evidence of mice or live mice present in facility's food and/or non-food areas.,borough: BROOKLYN], 1.8406396016676505
+[violation: Food Protection Certificate not held by supervisor of food operations.], 1.8145539583819579
+[violation: No violation], 1.7827477792879993
+[violation: Hot food item not held at or above 140Âº F.,borough: MANHATTAN], 1.7635267789722258
+[cuisine: Latin (Cuban, Dominican, Puerto Rican, South & Central American),borough: QUEENS], 1.7610097432165885
+[violation: Cold food item held above 41Âº F (smoked fish and reduced oxygen packaged foods above 38 ÂºF) except during necessary preparation.,cuisine: American], 1.7406446357391618
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,cuisine: American,borough: MANHATTAN], 1.7141013495888078
+[violation: Cold food item held above 41Âº F (smoked fish and reduced oxygen packaged foods above 38 ÂºF) except during necessary preparation.,borough: BROOKLYN], 1.7131860638594854
+[violation: Cold food item held above 41Âº F (smoked fish and reduced oxygen packaged foods above 38 ÂºF) except during necessary preparation.,borough: QUEENS], 1.624860990979859
+[violation: Evidence of mice or live mice present in facility's food and/or non-food areas.,borough: QUEENS], 1.613648740795658
+[cuisine: Caribbean,borough: BROOKLYN], 1.5932836333182312
+[violation: Proper sanitization not provided for utensil ware washing operation.], 1.5701726686528368
+[cuisine: Chicken], 1.5575874898746516
+[cuisine: Delicatessen], 1.5564433827129984
+[cuisine: Indian], 1.5475193468521036
+[cuisine: Asian], 1.5388241324235392
+[violation: Food not protected from potential source of contamination during storage, preparation, transportation, display or service.,borough: QUEENS], 1.490313988769444
+[cuisine: Jewish/Kosher], 1.4413462022506875
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,cuisine: Chinese], 1.4379138807657281
+[cuisine: American,borough: BRONX], 1.4372274164687362
+[cuisine: Pizza,borough: MANHATTAN], 1.4360833093070828
+[violation: Evidence of mice or live mice present in facility's food and/or non-food areas.,cuisine: American], 1.4292186663371638
+[cuisine: French], 1.4200658090439382
+[violation: Food not protected from potential source of contamination during storage, preparation, transportation, display or service.,borough: BROOKLYN], 1.4109129517507129
+[violation: Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.,borough: QUEENS], 1.4065653445364306
+[violation: Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.,borough: BROOKLYN], 1.389861379976294
+[cuisine: Hamburgers], 1.3775050226304397
+[cuisine: Thai], 1.364004558122932
+[cuisine: Donuts], 1.3569110937206823
+[violation: Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.,cuisine: American], 1.3562246294236904
+[cuisine: Korean], 1.337461271972578
+[cuisine: Mexican,borough: MANHATTAN], 1.2811711996192412
+[violation: Food not protected from potential source of contamination during storage, preparation, transportation, display or service.,cuisine: American], 1.2733912709199995
+[violation: Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.,borough: BROOKLYN], 1.2370086631794281
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,borough: BRONX], 1.2310593059388315
+[violation: Smoke free workplace smoking policy inadequate, not posted, not provided to employees.], 1.2248811272659041
+[violation: Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.,borough: QUEENS], 1.2134400556493723
+[violation: Hot food item not held at or above 140Âº F.,borough: BROOKLYN], 1.2113806627583965
+[cuisine: Chinese,borough: BRONX], 1.209321269867421
+[cuisine: Sandwiches], 1.1901002695516474
+[violation: Hot food item not held at or above 140Âº F.,borough: QUEENS], 1.1809474122584218
+[cuisine: Pizza,borough: BROOKLYN], 1.180718590826091
+[violation: Filth flies or food/refuse/sewage-associated (FRSA) flies present in facilitys food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.,borough: BROOKLYN], 1.1594381976193417
+[violation: Food contact surface not properly maintained.], 1.1576076261606967
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,cuisine: Chinese], 1.152344733217092
+[violation: Filth flies or food/refuse/sewage-associated (FRSA) flies present in facilitys food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.,cuisine: American], 1.1360984115216168
+[violation: Pesticide use not in accordance with label or applicable laws. Prohibited chemical used/stored. Open bait station used.], 1.1310643400103428
+[cuisine: Mexican,borough: BROOKLYN], 1.1251149827697462
+[cuisine: Pizza,borough: QUEENS], 1.1139027325855448
+[cuisine: French,borough: MANHATTAN], 1.1095551253712628
+[cuisine: Latin (Cuban, Dominican, Puerto Rican, South & Central American),borough: MANHATTAN], 1.0834694820855701
+[violation: Filth flies or food/refuse/sewage-associated (FRSA) flies present in facilitys food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.,borough: QUEENS], 1.0697401961457318
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,cuisine: American,borough: MANHATTAN], 1.0585279459615304
+[violation: Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.,borough: MANHATTAN], 1.04754451720966
+
+
+Association Rules (Min. Confidence: 0.4%)
+======================================
+[cuisine: French] => [borough: MANHATTAN] (Confidence: 78.1340638092169%, Support: 1.1095551253712628%)
+[cuisine: Japanese] => [borough: MANHATTAN] (Confidence: 59.32940875351933%, Support: 2.121632320569674%)
+[cuisine: Italian] => [borough: MANHATTAN] (Confidence: 58.044745627584824%, Support: 2.6655408652196%)
+[cuisine: CafÃ©/Coffee/Tea] => [borough: MANHATTAN] (Confidence: 52.90672316032151%, Support: 1.9429227819194457%)
+[cuisine: American] => [borough: MANHATTAN] (Confidence: 52.31053970327702%, Support: 12.093899162971201%)
+[violation: Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.,cuisine: American] => [borough: MANHATTAN] (Confidence: 51.83006988168546%, Support: 1.7141013495888078%)
+[cuisine: Caribbean] => [borough: BROOKLYN] (Confidence: 50.83594947798788%, Support: 1.5932836333182312%)
+[violation: Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,cuisine: American] => [borough: MANHATTAN] (Confidence: 50.55737704918032%, Support: 1.0585279459615304%)
+[violation: Cold food item held above 41Âº F (smoked fish and reduced oxygen packaged foods above 38 ÂºF) except during necessary preparation.] => [borough: MANHATTAN] (Confidence: 44.11148556334821%, Support: 3.324546590331837%)
+[violation: Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.] => [borough: MANHATTAN] (Confidence: 43.87852177094767%, Support: 2.7440266165090086%)
+[violation: Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.] => [borough: MANHATTAN] (Confidence: 43.49230476914308%, Support: 1.04754451720966%)
+[violation: Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.] => [borough: MANHATTAN] (Confidence: 42.37452961819796%, Support: 2.293248394817652%)
+[violation: Food not protected from potential source of contamination during storage, preparation, transportation, display or service.] => [borough: MANHATTAN] (Confidence: 40.53586530329822%, Support: 2.412922003926576%)
+[violation: Filth flies or food/refuse/sewage-associated (FRSA) flies present in facilitys food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.] => [borough: MANHATTAN] (Confidence: 40.30717542596592%, Support: 1.9216423887126963%)
